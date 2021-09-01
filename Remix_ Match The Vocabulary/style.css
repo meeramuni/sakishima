@@ -1,0 +1,590 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("applab/fontawesome-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+#divApplab.appModern button.appModernDesign,
+#divApplab.appModern button.appModernDesign:hover {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  height: 30px;
+  width: 80px;
+  font-size: 14px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(26, 188, 156);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern label.appModernDesign,
+#divApplab.appModern label.appModernDesign:hover {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  line-height: 1;
+  font-size: 14px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  overflow-wrap: break-word;
+  color: rgb(51, 51, 51);
+  max-width: 320px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  width: 32px;
+  height: 19px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern input[type=text].appModernDesign,
+#divApplab.appModern input[type=text].appModernDesign:hover {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  width: 200px;
+  height: 30px;
+  color: rgb(0, 0, 0);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgb(153, 153, 153);
+  border-right-color: rgb(153, 153, 153);
+  border-bottom-color: rgb(153, 153, 153);
+  border-left-color: rgb(153, 153, 153);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern input[type=checkbox].appModernDesign,
+#divApplab.appModern input[type=checkbox].appModernDesign:hover {
+  width: 12px;
+  height: 12px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern select.appModernDesign,
+#divApplab.appModern select.appModernDesign:hover {
+  width: 200px;
+  height: 30px;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(26, 188, 156);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern input[type=radio].appModernDesign,
+#divApplab.appModern input[type=radio].appModernDesign:hover {
+  width: 12px;
+  height: 12px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern div.textArea.appModernDesign,
+#divApplab.appModern div.textArea.appModernDesign:hover {
+  width: 200px;
+  height: 100px;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgb(153, 153, 153);
+  border-right-color: rgb(153, 153, 153);
+  border-bottom-color: rgb(153, 153, 153);
+  border-left-color: rgb(153, 153, 153);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern img.appModernDesign,
+#divApplab.appModern img.appModernDesign:hover {
+  height: 100px;
+  width: 100px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  object-fit: contain;
+  font-family: "object-fit: contain;";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern canvas.appModernDesign,
+#divApplab.appModern canvas.appModernDesign:hover {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern div.screen.appModernDesign,
+#divApplab.appModern div.screen.appModernDesign:hover {
+  display: block;
+  height: 450px;
+  width: 320px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: 0;
+}
+
+#divApplab.appModern div.chart.appModernDesign,
+#divApplab.appModern div.chart.appModernDesign:hover {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern input[type=range].appModernDesign,
+#divApplab.appModern input[type=range].appModernDesign:hover {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  width: 150px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern #WelcomeScr {
+  background-color: rgba(10, 162, 10, 0.18);
+}
+
+#divApplab.appModern #nameSbmtBtn {
+  width: 300px;
+  left: 10px;
+  top: 310px;
+  height: 40px;
+  background-image: url("https://studio.code.org/v3/assets/Mt3jYucubzGZAe2mNTvWDzP86Jhes35qJWK6oJujZEc/BtnBG.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #greetingLbl {
+  font-size: 18px;
+  width: 176px;
+  height: 23px;
+  left: 72px;
+  top: 160px;
+}
+
+#divApplab.appModern #nameInpt {
+  width: 120px;
+  left: 100px;
+  top: 195px;
+  text-align: left;
+}
+
+#divApplab.appModern #nameRequiredLbl {
+  color: rgb(255, 0, 0);
+  width: 320px;
+  height: 15px;
+  top: 235px;
+  text-align: center;
+}
+
+#divApplab.appModern #resulstScr {
+  background-color: rgba(10, 162, 10, 0.18);
+  display: none;
+}
+
+#divApplab.appModern #cngrtLbl {
+  width: 235px;
+  height: 65px;
+  left: 42px;
+  top: 90px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#divApplab.appModern #pntsLbl {
+  font-size: 25px;
+  width: 130px;
+  height: 30px;
+  left: 95px;
+  top: 160px;
+}
+
+#divApplab.appModern #advLbl {
+  font-size: 16px;
+  width: 190px;
+  height: 70px;
+  left: 65px;
+  top: 220px;
+  text-align: center;
+}
+
+#divApplab.appModern #rstrtBtn {
+  height: 40px;
+  width: 300px;
+  background-color: rgb(10, 162, 10);
+  top: 340px;
+  left: 10px;
+}
+
+#divApplab.appModern #extBtn {
+  height: 40px;
+  width: 300px;
+  background-color: rgba(10, 162, 10, 0.69);
+  left: 10px;
+  top: 390px;
+}
+
+#divApplab.appModern #questionScr {
+  background-color: rgba(10, 162, 10, 0.18);
+  display: none;
+}
+
+#divApplab.appModern #answerBtn2 {
+  height: 40px;
+  top: 295px;
+  width: 130px;
+  left: 170px;
+  background-image: url("https://studio.code.org/v3/assets/Mt3jYucubzGZAe2mNTvWDzP86Jhes35qJWK6oJujZEc/sBtnBG.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #answerBtn3 {
+  height: 40px;
+  width: 130px;
+  top: 350px;
+  left: 20px;
+  background-image: url("https://studio.code.org/v3/assets/Mt3jYucubzGZAe2mNTvWDzP86Jhes35qJWK6oJujZEc/sBtnBG.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #answerBtn4 {
+  height: 40px;
+  width: 130px;
+  top: 350px;
+  left: 170px;
+  background-image: url("https://studio.code.org/v3/assets/Mt3jYucubzGZAe2mNTvWDzP86Jhes35qJWK6oJujZEc/sBtnBG.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #forFutureVersions {
+  height: 150px;
+  width: 200px;
+  left: 60px;
+  top: 105px;
+}
+
+#divApplab.appModern #answerBtn1 {
+  height: 40px;
+  width: 130px;
+  left: 20px;
+  top: 295px;
+  background-image: url("https://studio.code.org/v3/assets/Mt3jYucubzGZAe2mNTvWDzP86Jhes35qJWK6oJujZEc/sBtnBG.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #questionLbl {
+  font-size: 18px;
+  width: 285px;
+  height: 30px;
+  left: 17px;
+  top: 80px;
+}
+
+#divApplab.appModern #crctIncrtScr {
+  background-color: rgba(10, 162, 10, 0.18);
+  display: none;
+}
+
+#divApplab.appModern #inctLbl {
+  font-size: 50px;
+  color: rgb(226, 7, 20);
+  width: 240px;
+  height: 59px;
+  left: 40px;
+  top: 160px;
+  text-align: center;
+}
+
+#divApplab.appModern #crctLbl {
+  color: rgb(0, 150, 64);
+  width: 195px;
+  height: 55px;
+  left: 63px;
+  top: 160px;
+  font-size: 51px;
+  text-align: center;
+}
+
+#divApplab.appModern #motvtLbl {
+  font-size: 15px;
+  width: 320px;
+  top: 265px;
+  text-align: center;
+}
+
+#divApplab.appModern #crctNxtBtn {
+  height: 40px;
+  width: 300px;
+  left: 10px;
+  top: 355px;
+  background-image: url("https://studio.code.org/v3/assets/Mt3jYucubzGZAe2mNTvWDzP86Jhes35qJWK6oJujZEc/BtnBG.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #quesLftLbl {
+  font-size: 15px;
+  width: 320px;
+  top: 295px;
+  text-align: center;
+}
+
+#divApplab.appModern #introScr {
+  background-color: rgba(10, 162, 10, 0.18);
+  display: none;
+}
+
+#divApplab.appModern #readyBtn {
+  left: 10px;
+  top: 310px;
+  height: 40px;
+  width: 300px;
+  background-image: url("https://studio.code.org/v3/assets/Mt3jYucubzGZAe2mNTvWDzP86Jhes35qJWK6oJujZEc/BtnBG.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #grtLbl {
+  font-size: 18px;
+  width: 250px;
+  height: 90px;
+  left: 35px;
+  top: 80px;
+  text-align: center;
+}
+
+#divApplab.appModern #gtredyLbl {
+  font-size: 18px;
+  width: 200px;
+  height: 60px;
+  left: 60px;
+  top: 185px;
+  text-align: center;
+}
+
+#divApplab.appModern #byeScr {
+  background-color: rgba(10, 162, 10, 0.18);
+  display: none;
+}
+
+#divApplab.appModern #gbBtn {
+  font-size: 40px;
+  color: rgb(10, 162, 10);
+  width: 320px;
+  height: 45px;
+  text-align: center;
+  top: 180px;
+}
+
+#divApplab.appModern #blkScr {
+  background-color: rgba(0, 0, 0, 0.89);
+  display: none;
+}
+
+#divApplab.appModern #gameRestartedScr {
+  background-color: rgba(10, 162, 10, 0.18);
+  display: none;
+}
+
+#divApplab.appModern #rstrtStartQuizBtn {
+  height: 40px;
+  width: 300px;
+  left: 10px;
+  top: 270px;
+  background-image: url("https://studio.code.org/v3/assets/Mt3jYucubzGZAe2mNTvWDzP86Jhes35qJWK6oJujZEc/BtnBG.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #rstrtFullMapBtn {
+  width: 300px;
+  left: 10px;
+  top: 220px;
+  height: 40px;
+  background-image: url("https://studio.code.org/v3/assets/Mt3jYucubzGZAe2mNTvWDzP86Jhes35qJWK6oJujZEc/BtnBG.png");
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+#divApplab.appModern #whatLbl {
+  font-size: 17px;
+  width: 170px;
+  height: 40px;
+  left: 75px;
+  top: 95px;
+  text-align: center;
+}
