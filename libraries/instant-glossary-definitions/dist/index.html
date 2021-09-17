@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>Instant Definitions Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/min.instant-definitions.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="terms.json"></script>
+    <script src="js/instant-definitions-dist.js"></script>
+    <style>
+    
+        html{
+            font-family: "Century Gothic", "Arial", sans-serif;
+        }
+        
+        body{
+            padding: 25px;
+        }
+    </style>
+
+</head>
+
+
+
+<body>
+
+    <h2>Welcome to the Instant Definitions demo</h2>
+
+    <p>Did you know you can visit <span class="idef" data-idef="google">Google</span> for all your browsing needs? Other people use <span class="idef" data-idef="bing">Bing</span>, but I wouldn't recommend that. Bing was created by <span class="idef" data-idef="microsoft">Microsoft</span>, while Google Search was created by Alphabet</p>
+    
+    <p>If you do not set a definition, you could <span class="idef">display an error</span>. This can be toggled in the settings</p>
+    <p>This library requires manual tagging, but the advantage of this is that you can tag <span class="idef" data-idef="pt">anything</span>, from <span class="idef" data-idef="ot">any keyword</span></p>
+    <p>A good example of this could be for abbreviations such as <span class="idef" data-idef="nasa">NASA</span>, or for slightly related concepts that don't have their own definitions such as: <span class="idef" data-idef="nasa">The Mars Rover</span>, <span class="idef" data-idef="nasa">Cape Canaveral</span>, or <span class="idef" data-idef="nasa">The Kennedy Space Center</span></p>
+    <p>Please <a href="https://github.com/tawong/instant-definitions" target="_blank">read the documentation on Github</a> for more information about this plugin</p>
+    
+    <br>
+    
+    <p>Created by <a href="http://tristanwong.com" target="_blank">Tristan Wong</a></p>
+
+    <script>
+        $("body").instantDefinitions({
+//            underlineColor: "#0078ae",
+//            underlineWeight: 2,
+//            backgroundColor: "#abfcab",
+//            backgroundOpacity: 0.4,
+//            highlightText: true,
+//            boldText: true,
+//            underlineText: true,
+//            noStyle: false,
+//            showErrors: true,
+//            showTitles: true,
+//            hideMobile: false
+        });
+
+    </script>
+</body>
+
+</html>
