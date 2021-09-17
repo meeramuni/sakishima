@@ -2,8 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>すぃまむに　ならー！</title>
+    <base href="https://www.ocf.berkeley.edu/~sakishima/index.html">
 <!--navigation bar-->
     <div class="navbar">
       <a href="index.html">ホームページ</a>
@@ -14,6 +15,38 @@
       <a href="contact.html">連絡</a>
     </div>
   </head>
+
+  <style>
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  </style>
 
   <h1>
     <!--want original picture for website picture-->
@@ -27,7 +60,8 @@
 
       <h2>
 
-      むかす　むらぬまきなんが　うしゔぬぴとぅがら　しぅに　うだちょう。
+      <div class="tooltip">むかす<span class="tooltiptext">昔</span>
+      </div>　<div class="tooltip">むら<span class="tooltiptext">村</span></div><div class="tooltip">ぬ<span class="tooltiptext">の</span></div>まきなんが　うしゔぬぴとぅがら　しぅに　うだちょう。
 
       <br>
 

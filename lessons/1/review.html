@@ -2,26 +2,28 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../../lessonstyle.css">
     <title>第一課：復習</title>
+    <base href="https://www.ocf.berkeley.edu/~sakishima/index.html">
+    <link rel="stylesheet" href="css/lessonstyle.css">
+
 <!--navigation bar-->
     <div class="navbar">
-      <a href="../../index.html">ホームページ</a>
-      <a href="../../about.html">めーらについて</a>
-      <a href="../../stories.html">物語</a>
-      <a href="../../lessons.html">授業</a>
-      <a href="../../games.html">ゲーム</a>
-      <a href="../../contact.html">連絡</a>
+      <a href="index.html">ホームページ</a>
+      <a href="about.html">めーらについて</a>
+      <a href="stories.html">物語</a>
+      <a href="lessons.html">授業</a>
+      <a href="games.html">ゲーム</a>
+      <a href="contact.html">連絡</a>
     </div>
 <!--calls audio for images-->
-<script src = "../../audio.js"></script>
+<script src = "js/audio.js"></script>
 
     <h1>
       <center><a href="index.html"><img src= "http://userdisk.webry.biglobe.ne.jp/013/951/82/N000/000/000/120851330990316431918.JPG" alt="おーりとーり" width="600"></a> </center> <br>
       <center>第一課</center><br>
 <!--grammar lecture-->
-      <audio data-autoplay src="../../audio/ureenookaya.wav"></audio>
-      <center><span style="cursor:pointer" onclick="javascript:soundfile('ureenookaya.wav')">I. うれーのーかや？</span></center>
+      <audio data-autoplay src="audio/lessons/1/ureenookaya.wav"></audio>
+      <center><span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureenookaya.wav')">I. うれーのーかや？</span></center>
     </h1>
     <ul> <li><font size="4">
       この課では <b>うれー<font color="red"> のー</font>かやー？</b>を習います。<b>うれー<font color="red"> のー</font>かやー？</b> のいみは <b>これは何ですか？</b>です。 </font>
@@ -36,14 +38,15 @@
       <li> <font size="4"> 答えるには<b> A</b> のところにそのなまえをのべます。</font>
       </li>
       </ul>
+
 <!--examples have audio when word and images are clicked-->
     <h2>
       <center>例:<br><br>
-      <span style="cursor:pointer" onclick="javascript:soundfile('ureenookaya.wav')">うれー<font color="red">のー</font>かや？</span><br>
-      <span style="cursor:pointer" onclick="javascript:soundfile('ureeinyu.wav')">
-      <img src = "../../img/dog.jpg" alt="dog picture" style="width:150px;height:150px;"></span></center>
-      <audio data-autoplay src="../../audio/ureeinyu.wav"></audio>
-      <br><center><span style="cursor:pointer" onclick="javascript:soundfile('ureeinyu.wav')">うれー<font color="white"> いん</font>ゆ！</span></center>
+      <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureenookaya.wav')">うれー<font color="red">のー</font>かや？</span><br>
+      <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureeinyu.wav')">
+      <img src = "img/dog.jpg" alt="dog picture" style="width:150px;height:150px;"></span></center>
+      <audio data-autoplay src="audio/lessons/1/ureeinyu.wav"></audio>
+      <br><center><span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureeinyu.wav')">うれー<font color="white"> いん</font>ゆ！</span></center>
     </h2>
 
     <h1>
@@ -58,20 +61,28 @@
 
     <h2>
       <center>例:<br><br>
-      <audio data-autoplay src="../../audio/inyanoodufoo.wav"></audio>
-      <span style="cursor:pointer" onclick="javascript:soundfile('inyanoodufoo.wav')">いんや<font color="red">のー</font>どぅ ふぉー?</span><br>
-      <audio data-autoplay src="../../audio/inyafunindufoo.wav"></audio>
-      <span style="cursor:pointer" onclick="javascript:soundfile('inyafunindufoo.wav')">
-      <img src = "../../img/citrus.jpg" alt="citrus" style="width:200px">
-      <img src = "../../img/dog.jpg" alt="dog" style="width:200px">
+      <audio data-autoplay src="audio/lessons/1/inyanoodufoo.wav"></audio>
+      <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/inyanoodufoo.wav')">いんや<font color="red">のー</font>どぅ ふぉー?</span><br>
+      <audio data-autoplay src="audio/lessons/1/inyafunindufoo.wav"></audio>
+      <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/inyafunindufoo.wav')">
+      <img src = "img/citrus.jpg" alt="citrus" style="width:200px">
+      <img src = "img/dog.jpg" alt="dog" style="width:200px">
       </span>
       </center><br>
-      <span style="cursor:pointer" onclick="javascript:soundfile('inyafunindufoo.wav')"><center>いんや <font color="white"> ふにん</font>どぅ ふぉー</span></center>
+      <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/inyafunindufoo.wav')"><center>いんや <font color="white"> ふにん</font>どぅ ふぉー</span></center>
     </h2>
 
 <!--links to grammar and vocab review test-->
     <h2>
-      <center><a href="grammartest.html">文法復習</a><br><a href="vocabtest.html">単語復習</a></center>
+      <center>
+
+        <a href="lessons/1/grammartest.html">文法復習</a>
+      
+        <br>
+      
+        <a href="lessons/1/vocabtest.html">単語復習</a>
+
+      </center>
     </h2>
 </head>
 <!--vocabulary table-->
@@ -86,72 +97,72 @@
       <tr>
         <td>いん</td>
         <td>犬</td>
-        <audio data-autoplay src="../../audio/in.wav"></audio>
-        <td><span style="cursor:pointer" onclick="javascript:soundfile('in.wav')">
-          <img src = "../../img/dog.jpg" alt="dog picture" style="width:80px;height:90px;"></span></td>
+        <audio data-autoplay src="audio/lessons/1/in.wav"></audio>
+        <td><span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/in.wav')">
+          <img src = "img/dog.png" alt="dog picture" style="width:80px;height:90px;"></span></td>
       </tr>
       <tr>
         <td>まやー</td>
         <td>猫</td>
-        <audio data-autoplay src="../../audio/mayaa.wav"></audio>
-        <td><span style="cursor:pointer" onclick="javascript:soundfile('mayaa.wav')">
-          <img src = "../../img/cat.jpg" alt = "cat picture" style="width:80px;height:90px;"></span></td>
+        <audio data-autoplay src="audio/lessons/1/mayaa.wav"></audio>
+        <td><span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/mayaa.wav')">
+          <img src = "img/cat.png" alt = "cat picture" style="width:80px;height:90px;"></span></td>
       </tr>
       <tr>
         <td>すぃま　ばそんなる</td>
         <td>島バナナ</td>
-        <audio data-autoplay src="../../audio/sImabasonnaru.wav"></audio>
-        <td><span style="cursor:pointer" onclick="javascript:soundfile('sImabasonnaru.wav')">
-          <img src = "../../img/banana.jpg" alt = "banana picture" style="width:80px;height:90px;"></span></td>
+        <audio data-autoplay src="audio/lessons/1/sImabasonnaru.wav"></audio>
+        <td><span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/sImabasonnaru.wav')">
+          <img src = "img/banana.png" alt = "banana picture" style="width:80px;height:90px;"></span></td>
       </tr>
       <tr>
         <td>ふにん</td>
         <td>みかん</td>
-        <audio data-autoplay src="../../audio/funin.wav"></audio>
-        <td><span style="cursor:pointer" onclick="javascript:soundfile('funin.wav')">
-          <img src="../../img/citrus.jpg" alt = "orange picture" style="width:80px;height:90px;"></span></td>
+        <audio data-autoplay src="audio/lessons/1/funin.wav"></audio>
+        <td><span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/funin.wav')">
+          <img src="img/citrus.png" alt = "orange picture" style="width:80px;height:90px;"></span></td>
       </tr>
       <tr>
         <td>ふぉー</td>
         <td>食べる</td>
-        <audio data-autoplay src="../../audio/foo.wav"></audio>
-        <td><span style="cursor:pointer" onclick="javascript:soundfile('foo.wav')">
-          <img src="../../img/man_eat.jpg" alt = "eat picture" style="height:130px;"></span>
+        <audio data-autoplay src="audio/lessons/1/foo.wav"></audio>
+        <td><span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/foo.wav')">
+          <img src="img/man_eat.png" alt = "eat picture" style="height:130px;"></span>
       </td>
       </tr>
       <tr>
         <td>ぬむ</td>
         <td>飲む</td>
-        <audio data-autoplay src="../../audio/numu.wav"></audio>
-        <td><span style="cursor:pointer" onclick="javascript:soundfile('numu.wav')">
-          <img src="../../img/woman_drink.jpg" alt = "drink picture" style="height:130px;"></span>
+        <audio data-autoplay src="audio/lessons/1/numu.wav"></audio>
+        <td><span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/numu.wav')">
+          <img src="img/woman_drink.png" alt = "drink picture" style="height:130px;"></span>
         </td>
       </tr>
       <tr>
         <td>みしゅ　すぃる</td>
         <td>味噌汁 </td>
-        <audio data-autoplay src="../../audio/mishusIru.wav"></audio>
-        <td><span style="cursor:pointer" onclick="javascript:soundfile('mishusIru.wav')">
-          <img src="../../img/miso.jpg" alt = "soup picture" style = "width:80px;height:90 px;"></span></td>
+        <audio data-autoplay src="audio/lessons/1/mishusIru.wav"></audio>
+        <td><span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/mishusIru.wav')">
+          <img src="img/miso.png" alt = "soup picture" style = "width:80px;height:90 px;"></span></td>
       </tr>
       <tr>
         <td>ぐし </td>
         <td>酒 </td>
-        <audio data-autoplay src="../../audio/gusi.wav"></audio>
-        <td><span style="cursor:pointer" onclick="javascript:soundfile('gusi.wav')">
-          <img src="../../img/alcohol.jpg" alt = "sake picture" style = "width:80px;height:90 px;"></span></td>
+        <audio data-autoplay src="audio/lessons/1/gusi.wav"></audio>
+        <td><span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/gusi.wav')">
+          <img src="img/alcohol.png" alt = "sake picture" style = "width:80px;height:90 px;"></span></td>
       </tr>
       <tr>
         <td>うれー</td>
         <td>これは</td>
-        <audio data-autoplay src="../../audio/uree.wav"></audio>
-        <td><span style="cursor:pointer" onclick="javascript:soundfile('uree.wav')">クリックしてください</span></td>
+        <audio data-autoplay src="audio/lessons/1/uree.wav"></audio>
+        <td><span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/uree.wav')">クリックしてください</span></td>
       </tr>
       <tr>
         <td>のー</td>
         <td>何</td>
-        <audio data-autoplay src="../../audio/noo.wav"></audio>
-        <td><span style="cursor:pointer" onclick="javascript:soundfile('noo.wav')">クリックしてください</span></td>
+        <audio data-autoplay src="audio/lessons/1/noo.wav"></audio>
+        <td><span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/noo.wav')">クリックしてください</span></td>
       </tr>
     </table>
       </table>

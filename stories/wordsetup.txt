@@ -1,0 +1,14 @@
+For each column:
+- meera: Meera word
+- japanese: Japanese translation
+- word break: if 1, new word, else 0
+- sentence break: if 1, new sentence, else 0
+
+* Notes
+	- Keep punctuation
+	- Separate morphemes as necessary
+
+* Pseudocode
+	- div tooltip + meera + span tooltiptext + japanese
+	- Add space if word break = 1
+	- Add 。 and <br> if sentence break = 1
