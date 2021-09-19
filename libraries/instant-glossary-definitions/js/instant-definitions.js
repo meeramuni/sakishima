@@ -44,9 +44,9 @@
             }
         }
         if (settings.showTitles == true) {
-            $("body").append('<div id="idef-popup"><h1 id="idef-title"></h1><p id="idef-definition"></p></div>');
+            $("body").append('<div id="idef-popup"><h2 id="idef-title"></h2><p id="idef-definition" style="color:white"></p></div>');
         } else {
-            $("body").append('<div id="idef-popup" class="no-title"><p id="idef-definition"></p></div>');
+            $("body").append('<div id="idef-popup" class="no-title"><p id="idef-definition" style="color:white"></p></div>');
         }
         var popup = $("#idef-popup");
 
@@ -74,7 +74,7 @@
 
             if (settings.underlineText == true) {
                 $(this).find("span.idef").css({
-                    borderBottom: settings.underlineWeight + "px solid" + settings.underlineColor
+                    borderBottom: settings.underlineWeight + "px dashed" + settings.underlineColor
                 });
             }
 
@@ -113,19 +113,19 @@
                         popup.css({
                             "left": "auto",
                             "right": rightspace - spanwidth,
-                            "top": topPos + 30
+                            "top": topPos - 80
                         });
                     } else if (isMobile == false) {
                         popup.css({
                             "right": "auto",
                             "left": leftPos,
-                            "top": topPos + 30
+                            "top": topPos - 80
                         });
                     } else {
                         popup.css({
                             "left": leftPos,
                             transform: "translateX(-50%)",
-                            "top": topPos + 60
+                            "top": topPos - 50
                         });
                     }
 
