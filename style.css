@@ -44,3 +44,11 @@ h1 {
 .main {
   margin-top: 3px; /* Add a top margin to avoid content overlay */
 }
+
+/* Styled box */
+.box {
+  display: inline-block;
+  flex:1;
+  flex-flow: row wrap;
+  padding: 20px;
+}
