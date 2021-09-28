@@ -1,48 +1,76 @@
 <?xml version="1.0" ?>
 <div style="font-weight:bold">
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		むかす
 		<span class="tooltiptext">
-			<span class="gloss">昔</span>
+			<span class="gloss">
+				昔
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		むら
 		<span class="tooltiptext">
-			<span class="gloss">村</span>
+			<span class="gloss">
+				村
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ぬ
 		<span class="tooltiptext">
-			<span class="gloss">〜の</span>
+			<span class="gloss">
+				〜の
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		まき
 		<span class="tooltiptext">
-			<span class="gloss">牧場</span>
+			<span class="gloss">
+				牧場
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		なんが
 		<span class="tooltiptext">
-			<span class="gloss">〜で</span>
+			<span class="gloss">
+				〜で
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うすぃ
 		<span class="tooltiptext">
-			<span class="gloss">牛</span>
+			<span class="gloss">
+				牛
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ぬ
 		<span class="tooltiptext">
-			<span class="gloss">〜の</span>
+			<span class="gloss">
+				〜の
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
@@ -53,11 +81,15 @@
 				一匹、一頭
 				<br/>
 			</span>
-			<span>形態素：ぴとぅ〜がら</span>
+			<span>
+				形態素：ぴとぅ〜がら
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		すぃに
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -68,11 +100,15 @@
 				語根：すぃぬ
 				<br/>
 			</span>
-			<span>形態素：〜い</span>
+			<span>
+				形態素：〜い
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うだ
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -83,32 +119,48 @@
 				語根：うる
 				<br/>
 			</span>
-			<span>形態素：〜う</span>
+			<span>
+				形態素：〜う
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ちょー
 		<span class="tooltiptext">
-			<span class="gloss">〜そうだ</span>
+			<span class="gloss">
+				〜そうだ
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	。
 	<br/>
 	<br/>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		くり
 		<span class="tooltiptext">
-			<span class="gloss">これ</span>
+			<span class="gloss">
+				これ
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ゆ
 		<span class="tooltiptext">
-			<span class="gloss">〜を</span>
+			<span class="gloss">
+				〜を
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		みーだ
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -119,60 +171,88 @@
 				語根：みーる
 				<br/>
 			</span>
-			<span>形態素：〜だ</span>
+			<span>
+				形態素：〜だ
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うい
 		<span class="tooltiptext">
 			<span class="gloss">
 				年寄り
 				<br/>
 			</span>
-			<span>注：老</span>
+			<span>注：1</span>
 		</span>
 	</div>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		がらさー
 		<span class="tooltiptext">
-			<span class="gloss">カラス</span>
+			<span class="gloss">
+				カラス
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		や
 		<span class="tooltiptext">
-			<span class="gloss">〜は</span>
+			<span class="gloss">
+				〜は
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	（
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		くり
 		<span class="tooltiptext">
-			<span class="gloss">これ</span>
+			<span class="gloss">
+				これ
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ゆ
 		<span class="tooltiptext">
-			<span class="gloss">〜を</span>
+			<span class="gloss">
+				〜を
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
 	<div class="tooltip">
 		むーる
 		<span class="tooltiptext">
-			<span class="gloss">みんな</span>
+			<span class="gloss">
+				みんな
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		し
 		<span class="tooltiptext">
-			<span class="gloss">〜で</span>
+			<span class="gloss">
+				〜で
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ふぁーんばー
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -183,18 +263,26 @@
 				語根：ふぉー
 				<br/>
 			</span>
-			<span>形態素：〜あーぬ〜ばー</span>
+			<span>
+				形態素：〜あーぬ〜ばー
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	）
 	<div class="tooltip" style="color:green">
 		でぃ
 		<span class="tooltiptext">
-			<span class="gloss">〜と</span>
+			<span class="gloss">
+				〜と
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うもーだ
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -205,7 +293,11 @@
 				語根：うもー
 				<br/>
 			</span>
-			<span>形態素：〜だ</span>
+			<span>
+				形態素：〜だ
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	。
@@ -218,30 +310,42 @@
 				〜ぞ
 				<br/>
 			</span>
-			<span>注：係結び</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ぬ
 		<span class="tooltiptext">
-			<span class="gloss">〜の</span>
+			<span class="gloss">
+				〜の
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
 	<div class="tooltip">
 		にんじゅ
 		<span class="tooltiptext">
-			<span class="gloss">仲間</span>
+			<span class="gloss">
+				仲間
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ぬ
 		<span class="tooltiptext">
-			<span class="gloss">〜の</span>
+			<span class="gloss">
+				〜の
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ばがさーる
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -252,70 +356,110 @@
 				語根：ばが
 				<br/>
 			</span>
-			<span>形態素：〜さー〜う</span>
+			<span>
+				形態素：〜さー〜う
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		がらさー
 		<span class="tooltiptext">
-			<span class="gloss">カラス</span>
+			<span class="gloss">
+				カラス
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		かい
 		<span class="tooltiptext">
-			<span class="gloss">〜に</span>
+			<span class="gloss">
+				〜に
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	「
 	<div class="tooltip">
 		とー
 		<span class="tooltiptext">
-			<span class="gloss">ねー</span>
+			<span class="gloss">
+				ねー
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		むら
 		<span class="tooltiptext">
-			<span class="gloss">村</span>
+			<span class="gloss">
+				村
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ぬ
 		<span class="tooltiptext">
-			<span class="gloss">〜の</span>
+			<span class="gloss">
+				〜の
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		まき
 		<span class="tooltiptext">
-			<span class="gloss">牧場</span>
+			<span class="gloss">
+				牧場
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		なんが
 		<span class="tooltiptext">
-			<span class="gloss">〜で</span>
+			<span class="gloss">
+				〜で
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うすぃ
 		<span class="tooltiptext">
-			<span class="gloss">牛</span>
+			<span class="gloss">
+				牛
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ぬ
 		<span class="tooltiptext">
-			<span class="gloss">〜の</span>
+			<span class="gloss">
+				〜の
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		すぃに
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -326,11 +470,15 @@
 				語根：すぃぬ
 				<br/>
 			</span>
-			<span>形態素：〜い</span>
+			<span>
+				形態素：〜い
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うり
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -341,30 +489,46 @@
 				語根：うる
 				<br/>
 			</span>
-			<span>形態素：〜い</span>
+			<span>
+				形態素：〜い
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		きー
 		<span class="tooltiptext">
-			<span class="gloss">〜ので</span>
+			<span class="gloss">
+				〜ので
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うり
 		<span class="tooltiptext">
-			<span class="gloss">それ</span>
+			<span class="gloss">
+				それ
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ゆ
 		<span class="tooltiptext">
-			<span class="gloss">〜を</span>
+			<span class="gloss">
+				〜を
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ふぉい
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -375,7 +539,11 @@
 				語根：ふぉー
 				<br/>
 			</span>
-			<span>形態素：〜い</span>
+			<span>
+				形態素：〜い
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
@@ -385,7 +553,7 @@
 				〜に
 				<br/>
 			</span>
-			<span>注：＋動詞</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
@@ -400,14 +568,22 @@
 				語根：はる
 				<br/>
 			</span>
-			<span>形態素：〜あー</span>
+			<span>
+				形態素：〜あー
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	」
 	<div class="tooltip" style="color:green">
 		でぃ
 		<span class="tooltiptext">
-			<span class="gloss">〜と</span>
+			<span class="gloss">
+				〜と
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
@@ -417,7 +593,7 @@
 				〜ぞ
 				<br/>
 			</span>
-			<span>注：係結び</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
@@ -432,19 +608,27 @@
 				語根：あんく
 				<br/>
 			</span>
-			<span>形態素：〜だ</span>
+			<span>
+				形態素：〜だ
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ちょー
 		<span class="tooltiptext">
-			<span class="gloss">〜そうだ</span>
+			<span class="gloss">
+				〜そうだ
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	。
 	<br/>
 	<br/>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ばがさーる
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -455,37 +639,57 @@
 				語根：ばが
 				<br/>
 			</span>
-			<span>形態素：〜さー〜う</span>
+			<span>
+				形態素：〜さー〜う
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		がらす
 		<span class="tooltiptext">
-			<span class="gloss">カラス</span>
+			<span class="gloss">
+				カラス
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ぬめー
 		<span class="tooltiptext">
-			<span class="gloss">〜たち</span>
+			<span class="gloss">
+				〜たち
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		や
 		<span class="tooltiptext">
-			<span class="gloss">〜は</span>
+			<span class="gloss">
+				〜は
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	「
-	<div class="tooltip" style="color:green">
-		でぃ
+	<div class="tooltip">
+		でぃー
 		<span class="tooltiptext">
-			<span class="gloss">〜と</span>
+			<span class="gloss">
+				じゃー
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ふぉい
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -496,7 +700,11 @@
 				語根：ふぉー
 				<br/>
 			</span>
-			<span>形態素：〜い</span>
+			<span>
+				形態素：〜い
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
@@ -506,7 +714,7 @@
 				〜に
 				<br/>
 			</span>
-			<span>注：＋動詞</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
@@ -521,14 +729,22 @@
 				語根：はる
 				<br/>
 			</span>
-			<span>形態素：〜あー</span>
+			<span>
+				形態素：〜あー
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	」
 	<div class="tooltip" style="color:green">
 		でぃ
 		<span class="tooltiptext">
-			<span class="gloss">〜と</span>
+			<span class="gloss">
+				〜と
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
@@ -543,11 +759,15 @@
 				語根：あんく
 				<br/>
 			</span>
-			<span>形態素：〜い</span>
+			<span>
+				形態素：〜い
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		とぅび
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -558,10 +778,14 @@
 				語根：とぅぶ
 				<br/>
 			</span>
-			<span>形態素：〜い</span>
+			<span>
+				形態素：〜い
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		たてーる
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -572,13 +796,21 @@
 				語根：たてぃる
 				<br/>
 			</span>
-			<span>形態素：〜う</span>
+			<span>
+				形態素：〜う
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		がしゃーる
 		<span class="tooltiptext">
-			<span class="gloss">〜みたい</span>
+			<span class="gloss">
+				〜みたい
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	。
@@ -595,11 +827,15 @@
 				語根：あんず
 				<br/>
 			</span>
-			<span>形態素：〜そんが</span>
+			<span>
+				形態素：〜そんが
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ばがさーる
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -610,30 +846,46 @@
 				語根：ばが
 				<br/>
 			</span>
-			<span>形態素：〜さー〜う</span>
+			<span>
+				形態素：〜さー〜う
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		がらす
 		<span class="tooltiptext">
-			<span class="gloss">カラス</span>
+			<span class="gloss">
+				カラス
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ぬめー
 		<span class="tooltiptext">
-			<span class="gloss">〜たち</span>
+			<span class="gloss">
+				〜たち
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		や
 		<span class="tooltiptext">
-			<span class="gloss">〜は</span>
+			<span class="gloss">
+				〜は
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		がんずーさー
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -648,30 +900,42 @@
 				形態素：〜さー
 				<br/>
 			</span>
-			<span>注：頑丈</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ゆんから
 		<span class="tooltiptext">
-			<span class="gloss">〜であるから</span>
+			<span class="gloss">
+				〜であるから
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
 	<div class="tooltip">
 		ただーい
 		<span class="tooltiptext">
-			<span class="gloss">ずんずん</span>
+			<span class="gloss">
+				ずんずん
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		まい
 		<span class="tooltiptext">
-			<span class="gloss">前</span>
+			<span class="gloss">
+				前
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		なり
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -682,7 +946,11 @@
 				語根：なる
 				<br/>
 			</span>
-			<span>形態素：〜い</span>
+			<span>
+				形態素：〜い
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
@@ -697,54 +965,78 @@
 				語根：はる
 				<br/>
 			</span>
-			<span>形態素：〜い</span>
+			<span>
+				形態素：〜い
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うい
 		<span class="tooltiptext">
 			<span class="gloss">
 				年寄り
 				<br/>
 			</span>
-			<span>注：老</span>
+			<span>注：1</span>
 		</span>
 	</div>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		がらす
 		<span class="tooltiptext">
-			<span class="gloss">カラス</span>
+			<span class="gloss">
+				カラス
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		や
 		<span class="tooltiptext">
-			<span class="gloss">〜は</span>
+			<span class="gloss">
+				〜は
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
 	<div class="tooltip">
 		ただーい
 		<span class="tooltiptext">
-			<span class="gloss">ずんずん</span>
+			<span class="gloss">
+				ずんずん
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
 	<div class="tooltip">
 		ちび
 		<span class="tooltiptext">
-			<span class="gloss">尻</span>
+			<span class="gloss">
+				尻
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		かい
 		<span class="tooltiptext">
-			<span class="gloss">〜に</span>
+			<span class="gloss">
+				〜に
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		すぃてぃらり
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -755,7 +1047,11 @@
 				語根：すてぇいる
 				<br/>
 			</span>
-			<span>形態素：〜あり〜ぬ</span>
+			<span>
+				形態素：〜あり〜ぬ
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip">
@@ -769,7 +1065,11 @@
 				語根：はる
 				<br/>
 			</span>
-			<span>形態素：〜た</span>
+			<span>
+				形態素：〜た
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	。
@@ -779,7 +1079,11 @@
 	<div class="tooltip">
 		とーとー
 		<span class="tooltiptext">
-			<span class="gloss">あーあー</span>
+			<span class="gloss">
+				あーあー
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
@@ -794,24 +1098,36 @@
 				語根：あんず
 				<br/>
 			</span>
-			<span>形態素：〜う</span>
+			<span>
+				形態素：〜う
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		かー
 		<span class="tooltiptext">
-			<span class="gloss">〜れば</span>
+			<span class="gloss">
+				〜れば
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
 	<div class="tooltip">
 		ばー
 		<span class="tooltiptext">
-			<span class="gloss">私</span>
+			<span class="gloss">
+				私
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ふぉーむのー
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -822,7 +1138,11 @@
 				語根：ふぉー
 				<br/>
 			</span>
-			<span>形態素：〜むぬ〜や</span>
+			<span>
+				形態素：〜むぬ〜や
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
@@ -837,10 +1157,14 @@
 				語根：ねーぬ
 				<br/>
 			</span>
-			<span>形態素：〜い</span>
+			<span>
+				形態素：〜い
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		なり
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -851,13 +1175,21 @@
 				語根：なる
 				<br/>
 			</span>
-			<span>形態素：〜い</span>
+			<span>
+				形態素：〜い
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		きー
 		<span class="tooltiptext">
-			<span class="gloss">〜ので</span>
+			<span class="gloss">
+				〜ので
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
@@ -868,10 +1200,14 @@
 				それでは
 				<br/>
 			</span>
-			<span>語根：あんず</span>
+			<span>
+				語根：あんず
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ならぬ
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -882,20 +1218,28 @@
 				語根：なる
 				<br/>
 			</span>
-			<span>形態素：〜あぬ</span>
+			<span>
+				形態素：〜あぬ
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	。
 	<br/>
 	<br/>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		むぬかんがい
 		<span class="tooltiptext">
 			<span class="gloss">
 				知恵を使う
 				<br/>
 			</span>
-			<span>形態素：むぬ〜かんがい</span>
+			<span>
+				形態素：むぬ〜かんがい
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
@@ -910,14 +1254,22 @@
 				語根：すー
 				<br/>
 			</span>
-			<span>形態素：〜あー〜ば〜どぅ〜なる</span>
+			<span>
+				形態素：〜あー〜ば〜どぅ〜なる
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	）
 	<div class="tooltip" style="color:green">
 		でぃ
 		<span class="tooltiptext">
-			<span class="gloss">〜と</span>
+			<span class="gloss">
+				〜と
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
@@ -927,34 +1279,42 @@
 				〜ぞ
 				<br/>
 			</span>
-			<span>注：係結び</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うい
 		<span class="tooltiptext">
 			<span class="gloss">
 				年寄り
 				<br/>
 			</span>
-			<span>注：老</span>
+			<span>注：1</span>
 		</span>
 	</div>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		がらさー
 		<span class="tooltiptext">
-			<span class="gloss">カラス</span>
+			<span class="gloss">
+				カラス
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		や
 		<span class="tooltiptext">
-			<span class="gloss">〜は</span>
+			<span class="gloss">
+				〜は
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		かんがいだ
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -965,13 +1325,21 @@
 				語根：かんがいる
 				<br/>
 			</span>
-			<span>形態素：〜だ</span>
+			<span>
+				形態素：〜だ
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ちょー
 		<span class="tooltiptext">
-			<span class="gloss">〜そうだ</span>
+			<span class="gloss">
+				〜そうだ
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	。
@@ -981,18 +1349,26 @@
 	<div class="tooltip">
 		ぃやーぃや
 		<span class="tooltiptext">
-			<span class="gloss">おーいおーい</span>
+			<span class="gloss">
+				おーいおーい
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
 	<div class="tooltip">
 		わだー
 		<span class="tooltiptext">
-			<span class="gloss">あなたたち</span>
+			<span class="gloss">
+				あなたたち
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		いく
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1003,30 +1379,46 @@
 				語根：いく
 				<br/>
 			</span>
-			<span>形態素：〜う</span>
+			<span>
+				形態素：〜う
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		かー
 		<span class="tooltiptext">
-			<span class="gloss">〜れば</span>
+			<span class="gloss">
+				〜れば
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		つぬ
 		<span class="tooltiptext">
-			<span class="gloss">角</span>
+			<span class="gloss">
+				角
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		や
 		<span class="tooltiptext">
-			<span class="gloss">〜は</span>
+			<span class="gloss">
+				〜は
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ふぉーな
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1037,17 +1429,25 @@
 				語根：ふぉー
 				<br/>
 			</span>
-			<span>形態素：〜う〜な</span>
+			<span>
+				形態素：〜う〜な
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		よー
 		<span class="tooltiptext">
-			<span class="gloss">〜よ</span>
+			<span class="gloss">
+				〜よ
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		つのー
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1058,17 +1458,25 @@
 				語根：つぬ
 				<br/>
 			</span>
-			<span>形態素：〜や</span>
+			<span>
+				形態素：〜や
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		や
 		<span class="tooltiptext">
-			<span class="gloss">〜は</span>
+			<span class="gloss">
+				〜は
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ふぁぬどぅらー
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1079,14 +1487,22 @@
 				語根：ふぉー
 				<br/>
 			</span>
-			<span>形態素：〜あぬ〜どぅ〜ら</span>
+			<span>
+				形態素：〜あぬ〜どぅ〜ら
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	」
 	<div class="tooltip" style="color:green">
 		でぃ
 		<span class="tooltiptext">
-			<span class="gloss">〜と</span>
+			<span class="gloss">
+				〜と
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
@@ -1101,19 +1517,27 @@
 				語根：あんく
 				<br/>
 			</span>
-			<span>形態素：〜えーる</span>
+			<span>
+				形態素：〜えーる
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		がしゃーる
 		<span class="tooltiptext">
-			<span class="gloss">〜みたい</span>
+			<span class="gloss">
+				〜みたい
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	。
 	<br/>
 	<br/>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ばがさーる
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1124,40 +1548,64 @@
 				語根：ばが
 				<br/>
 			</span>
-			<span>形態素：〜さー〜う</span>
+			<span>
+				形態素：〜さー〜う
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		がらす
 		<span class="tooltiptext">
-			<span class="gloss">カラス</span>
+			<span class="gloss">
+				カラス
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ぬめーだ
 		<span class="tooltiptext">
-			<span class="gloss">〜たち</span>
+			<span class="gloss">
+				〜たち
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		や
 		<span class="tooltiptext">
-			<span class="gloss">〜は</span>
+			<span class="gloss">
+				〜は
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	（
 	<div class="tooltip">
 		あはー
 		<span class="tooltiptext">
-			<span class="gloss">そうか？</span>
+			<span class="gloss">
+				そうか？
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		つぬ
 		<span class="tooltiptext">
-			<span class="gloss">角</span>
+			<span class="gloss">
+				角
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
@@ -1167,22 +1615,26 @@
 				〜ぞ
 				<br/>
 			</span>
-			<span>注：係結び</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		いつぃばん
 		<span class="tooltiptext">
 			<span class="gloss">
 				一番
 				<br/>
 			</span>
-			<span>語根：一番</span>
+			<span>
+				語根：一番
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		んまさーる
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1197,24 +1649,32 @@
 				形態素：〜さー〜う
 				<br/>
 			</span>
-			<span>注：うまい</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		らー
 		<span class="tooltiptext">
-			<span class="gloss">〜なー</span>
+			<span class="gloss">
+				〜なー
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	）
 	<div class="tooltip" style="color:green">
 		でぃ
 		<span class="tooltiptext">
-			<span class="gloss">〜と</span>
+			<span class="gloss">
+				〜と
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うむい
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1225,20 +1685,32 @@
 				語根：うもー
 				<br/>
 			</span>
-			<span>形態素：〜い</span>
+			<span>
+				形態素：〜い
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		まき
 		<span class="tooltiptext">
-			<span class="gloss">牧場</span>
+			<span class="gloss">
+				牧場
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		なんが
 		<span class="tooltiptext">
-			<span class="gloss">〜で</span>
+			<span class="gloss">
+				〜で
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
@@ -1253,11 +1725,15 @@
 				語根：いく
 				<br/>
 			</span>
-			<span>形態素：〜い</span>
+			<span>
+				形態素：〜い
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		つのー
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1268,17 +1744,25 @@
 				語根：つぬ
 				<br/>
 			</span>
-			<span>形態素：〜や</span>
+			<span>
+				形態素：〜や
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ゆ
 		<span class="tooltiptext">
-			<span class="gloss">〜を</span>
+			<span class="gloss">
+				〜を
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ふぉーん
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1289,17 +1773,25 @@
 				語根：ふぉー
 				<br/>
 			</span>
-			<span>形態素：〜う〜ん</span>
+			<span>
+				形態素：〜う〜ん
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		でぃ
 		<span class="tooltiptext">
-			<span class="gloss">〜と</span>
+			<span class="gloss">
+				〜と
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		すだ
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1310,26 +1802,42 @@
 				語根：すー
 				<br/>
 			</span>
-			<span>形態素：〜だ</span>
+			<span>
+				形態素：〜だ
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		すんが
 		<span class="tooltiptext">
-			<span class="gloss">〜けど</span>
+			<span class="gloss">
+				〜けど
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		つぬ
 		<span class="tooltiptext">
-			<span class="gloss">角</span>
+			<span class="gloss">
+				角
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		や
 		<span class="tooltiptext">
-			<span class="gloss">〜は</span>
+			<span class="gloss">
+				〜は
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
@@ -1344,17 +1852,25 @@
 				語根：こー
 				<br/>
 			</span>
-			<span>形態素：〜さー〜い</span>
+			<span>
+				形態素：〜さー〜い
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ぬ
 		<span class="tooltiptext">
-			<span class="gloss">〜ので</span>
+			<span class="gloss">
+				〜ので
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ふぉい
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1365,17 +1881,25 @@
 				語根：ふぉー
 				<br/>
 			</span>
-			<span>形態素：〜い</span>
+			<span>
+				形態素：〜い
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ん
 		<span class="tooltiptext">
-			<span class="gloss">〜も</span>
+			<span class="gloss">
+				〜も
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		しらるぬ
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1386,7 +1910,11 @@
 				語根：すー
 				<br/>
 			</span>
-			<span>形態素：〜あり〜ぬ</span>
+			<span>
+				形態素：〜あり〜ぬ
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	。
@@ -1403,53 +1931,77 @@
 				語根：あんず
 				<br/>
 			</span>
-			<span>形態素：〜う</span>
+			<span>
+				形態素：〜う
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		んけん
 		<span class="tooltiptext">
-			<span class="gloss">〜うち</span>
+			<span class="gloss">
+				〜うち
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うい
 		<span class="tooltiptext">
 			<span class="gloss">
 				年寄り
 				<br/>
 			</span>
-			<span>注：老</span>
+			<span>注：1</span>
 		</span>
 	</div>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		がらさー
 		<span class="tooltiptext">
-			<span class="gloss">カラス</span>
+			<span class="gloss">
+				カラス
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		や
 		<span class="tooltiptext">
-			<span class="gloss">〜は</span>
+			<span class="gloss">
+				〜は
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
 	<div class="tooltip">
 		ちび
 		<span class="tooltiptext">
-			<span class="gloss">尻</span>
+			<span class="gloss">
+				尻
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		から
 		<span class="tooltiptext">
-			<span class="gloss">から</span>
+			<span class="gloss">
+				から
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		きーて
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1460,22 +2012,30 @@
 				語根：くー
 				<br/>
 			</span>
-			<span>形態素：〜い〜て</span>
+			<span>
+				形態素：〜い〜て
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		いつぃばん
 		<span class="tooltiptext">
 			<span class="gloss">
 				一番
 				<br/>
 			</span>
-			<span>語根：一番</span>
+			<span>
+				語根：一番
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		んまさーる
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1490,41 +2050,57 @@
 				形態素：〜さー〜う
 				<br/>
 			</span>
-			<span>注：うまい</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うすぃ
 		<span class="tooltiptext">
-			<span class="gloss">牛</span>
+			<span class="gloss">
+				牛
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ぬ
 		<span class="tooltiptext">
-			<span class="gloss">〜の</span>
+			<span class="gloss">
+				〜の
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		みんたま
 		<span class="tooltiptext">
 			<span class="gloss">
 				目玉
 				<br/>
 			</span>
-			<span>形態素：みん〜たま</span>
+			<span>
+				形態素：みん〜たま
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ゆ
 		<span class="tooltiptext">
-			<span class="gloss">〜を</span>
+			<span class="gloss">
+				〜を
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ぬぎ
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1535,11 +2111,15 @@
 				語根：ぬぐ
 				<br/>
 			</span>
-			<span>形態素：〜い</span>
+			<span>
+				形態素：〜い
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ふぉい
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1550,25 +2130,37 @@
 				語根：ふぉー
 				<br/>
 			</span>
-			<span>形態素：〜い</span>
+			<span>
+				形態素：〜い
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	「
 	<div class="tooltip">
 		だふぁーだふぁー
 		<span class="tooltiptext">
-			<span class="gloss">がぁーがぁー</span>
+			<span class="gloss">
+				がぁーがぁー
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	」
 	<div class="tooltip" style="color:green">
 		でぃ
 		<span class="tooltiptext">
-			<span class="gloss">〜と</span>
+			<span class="gloss">
+				〜と
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		なき
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1579,11 +2171,15 @@
 				語根：なく
 				<br/>
 			</span>
-			<span>形態素：〜い</span>
+			<span>
+				形態素：〜い
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		とぅび
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1594,7 +2190,11 @@
 				語根：とぅぶ
 				<br/>
 			</span>
-			<span>形態素：〜い</span>
+			<span>
+				形態素：〜い
+				<br/>
+			</span>
+			<span>注：1</span>
 		</span>
 	</div>
 	 
@@ -1609,13 +2209,21 @@
 				語根：はる
 				<br/>
 			</span>
-			<span>形態素：〜た</span>
+			<span>
+				形態素：〜た
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	<div class="tooltip" style="color:green">
 		ちょー
 		<span class="tooltiptext">
-			<span class="gloss">〜そうだ</span>
+			<span class="gloss">
+				〜そうだ
+				<br/>
+			</span>
+			<span>注：0</span>
 		</span>
 	</div>
 	。

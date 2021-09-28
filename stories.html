@@ -1,18 +1,54 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <meta charset="utf-8">
+    <base href="https://www.ocf.berkeley.edu/~sakishima/index.html">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+
+    <!-- Tooltip -->
+    <style>
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      /*border-bottom: 1px dotted black;*/
+    }
+
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 5px;
+      position: absolute;
+      z-index: 1;
+      bottom: 100%;
+      right: 20%;
+      margin-left: -60px;
+      
+      /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+      opacity: 0;
+      transition: opacity 1s;
+    }
+
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+    </style>
+
     <title>物語</title>
-    <base href="https://meeramuni.github.io/sakishima/index.html">
     
-<!--navigation bar-->
+    <!--navigation bar-->
     <div class="navbar">
       <a href="index.html">ホームページ</a>
       <a href="about.html">めーらについて</a>
       <a href="stories.html">物語</a>
       <a href="lessons.html">授業</a>
       <a href="games.html">ゲーム</a>
+      <a href="soundcorrespondences.html">音の相当</a>
       <a href="contact.html">連絡</a>
     </div>
   </head>
@@ -23,7 +59,62 @@
   </h1>
 
   <!--make list of stories-->
-      <body>
+  <body>
+
+      <!-- Trigger/Open The Modal -->
+      <center><button id="myBtn"><h1>物語の使い方</h1></button></center>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          
+          <p>物語には勉強のため色々な道具があります！</p>
+
+          <p>言葉の上カーソルを置きれば、次の<b>情報</b>が出ます。
+
+          <ol>
+            <li>意味</li>
+            <li>語根</li>
+            <li>形態素</li>
+            <li>注：注意するべきなこと</li>
+          </ol>
+
+          <p><b>例：</b><div class="tooltip">
+            <b>がんずーさー</b>
+              <span class="tooltiptext">
+              <span class="gloss" style="font-weight:bold">
+              元気であって
+              <br/>
+              </span>
+              <span>
+              語根：がんずー
+              <br/>
+              </span>
+              <span>
+              形態素：〜さー
+              <br/>
+              </span>
+              <span>注：「頑丈」と言う言葉に相当しています</span>
+              </span>
+            </div>(👈カーソルを置いてください！)
+          </p>
+
+          <p><b>語尾</b>は<span style="color:green;font-weight:bold">緑色</span>です。日本語とけっこう違う見た目ですから、注意してください！</p>
+
+          <p><b>日本語に相当している言葉</b>は<span style="color: darkorange;font-weight:bold">オレンジ色</span>です。<a href="soundcorrespondences.html">音の相当</a>ページをよく勉強して、これらの言葉を認めるようにしてください！</p>
+
+        </div>
+
+      </div>
+
+      <script src="js/modal.js"></script>
+
+
+
+      <!-- Stories -->
       <h2>
         <p>   
 

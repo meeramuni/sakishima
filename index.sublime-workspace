@@ -3,6 +3,18 @@
 	{
 		"selected_items":
 		[
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"querySo",
+				"querySelectorAll"
+			]
 		]
 	},
 	"buffers":
@@ -44,26 +56,43 @@
 	},
 	"file_history":
 	[
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/stories/uigarasaa-nu-zunbun/gloss.xml",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/css/story.css",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/glossary.json",
+		"/Users/Raksit/Box Sync/LRAP Meeramuni/sakishima/libraries/instant-glossary-definitions/css/instant-definitions.css",
+		"/Users/Raksit/Box Sync/LRAP Meeramuni/sakishima/libraries/instant-glossary-definitions/js/instant-definitions.js",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/lessons/2/index.html",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/sftp-config.json",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/lessons/1/index.html",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/libraries/reveal/js/initialize.js",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/libraries/reveal/js/print.js",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/packages/reveal/css/reveal.css",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/packages/reveal/js/initialize.js",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/packages/reveal/js/reveal.js",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/js/localanchor.js",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/lessons/1/review.html",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/lessons/1/vocabtest.html",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/lessons/1/grammartest.html",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/css/teststyle.css",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/packages/reveal/css/slides.css",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/stories.html",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/index.html",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/contact.html",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/games.html",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/about.html",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/packages/reveal/css/headerfooter.css",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/packages/reveal/js/copyheaderfooter.js",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/packages/reveal/js/print.js",
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/js/audio.js",
 		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/stories/uigarasaa-nu-zunbun/index.html",
 		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/lessons.html",
-		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/stories.html",
-		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/lessons/1/index.html",
-		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/lessons/2/index.html",
-		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/index.html",
-		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/lessons/1/vocabtest.html",
-		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/lessons/1/review.html",
-		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/about.html",
-		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/lessons/1/grammartest.html",
-		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/games.html",
-		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/contact.html",
 		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/lessons/index.html",
 		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/Lesson1.html",
-		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/Lesson1grammartest.html",
-		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/sftp-config.json"
+		"/Users/Raksit/Documents/Documents/Ryukyu Metadata/sakishima/Lesson1grammartest.html"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 22.0
 	},
 	"find_in_files":
 	{
@@ -81,7 +110,7 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 		],
@@ -155,7 +184,7 @@
 		[
 			[
 				"",
-				"~/Library/texmf/bibtex/bib/biblatex/raksit.bib"
+				"~/Box Sync/LRAP Meeramuni/sakishima/libraries/instant-glossary-definitions/js/instant-definitions.js"
 			]
 		],
 		"width": 0.0
