@@ -1,0 +1,20 @@
+{"vocab": [
+
+      { 
+            "meera": "てぃがみ", 
+            "japanese": "手紙",
+            "jp_hint": "<span style='color:red'>て</span>がみ"
+      },
+
+      { 
+            "meera": "むぬ", 
+            "japanese": "もの",
+            "jp_hint": "<style='color:red'>もの</style>"
+      },
+      {     
+            "meera": "あみ", 
+            "japanese": "雨",
+            "jp_hint": "あ<style='color:red'>み</style>"
+      }
+    
+]}

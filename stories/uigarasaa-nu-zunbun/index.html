@@ -21,6 +21,11 @@
       <a href="contact.html">連絡</a>
     </div>
 
+    <h1>
+    <!--want original picture for website picture-->
+      <center><a href="index.html"><img src= "http://userdisk.webry.biglobe.ne.jp/013/951/82/N000/000/000/120851330990316431918.JPG" alt="おーりとーり" width="600"></a> </center>
+    </h1>
+
   </head>
 
   <!-- Style for tooltip -->
@@ -57,9 +62,59 @@
 
   <!-- Glossary -->
   
+     <!-- Trigger/Open The Modal -->
+      <link rel="stylesheet" href="css/modal.css">
+
+      <center><button id="myBtn" style="cursor:pointer"><h1>物語の使い方</h1></button></center>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          
+          <p>物語には勉強のため色々な道具があります！</p>
+
+          <p>言葉の上カーソルを置きれば、次の<b>情報</b>が出ます。
+
+          <ol>
+            <li>意味</li>
+            <li>語根</li>
+            <li>形態素</li>
+            <li>注：注意するべきなこと</li>
+          </ol>
+
+          <span><b>例：</b></span><div class="tooltip">
+            <b>がんずーさー</b>
+              <span class="tooltiptext">
+              <span class="gloss" style="font-weight:bold">
+              元気であって
+              <br/>
+              </span>
+              <span>
+              語根：がんずー
+              <br/>
+              </span>
+              <span>
+              形態素：〜さー
+              <br/>
+              </span>
+              <span>注：「頑丈」と言う言葉に相当しています</span>
+              </span>
+            </div>(👈カーソルを置いてください！)
+
+          <p><b>語尾</b>は<span style="color:green;font-weight:bold">緑色</span>です。日本語とけっこう違う見た目ですから、注意してください！</p>
+
+          <p><b>日本語に相当している言葉</b>は<span style="color: darkorange;font-weight:bold">オレンジ色</span>です。<a href="soundcorrespondences.html">音の相当</a>ページをよく勉強して、これらの言葉を認めるようにしてください！</p>
+
+        </div>
+
+      </div>
+
+      <script src="js/modal.js"></script>
+
   <h1>
-    <!--want original picture for website picture-->
-    <center><a href="index.html"><img src= "http://userdisk.webry.biglobe.ne.jp/013/951/82/N000/000/000/120851330990316431918.JPG" alt="おーりとーり" width="600"></a> </center> <br>
     <center>
 
         <div class="tooltip" style="color:darkorange">
