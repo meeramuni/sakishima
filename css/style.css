@@ -1,12 +1,10 @@
 /*background image, font color and size*/
 body {
-  background-image: url("https://i.pinimg.com/originals/71/0b/5e/710b5ecc73d6e54ba07eb693a0a86bf0.jpg");
-  background-size: cover;
+  background-image: url("bgimage.png");
+  background-size: 100% auto;
   background-repeat: no-repeat;
-  {
-    opacity: 0.5.;
-    filter: alpha(opacity=0); /* For IE8 and earlier */
-  }
+  background-color: white;
+  
 }
 p {
   color: black;
