@@ -3,34 +3,44 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <base href="https://www.ocf.berkeley.edu/~sakishima/index.html">
+        
+        <!-- <base href="https://www.ocf.berkeley.edu/~sakishima/" /> -->
 
 		<title>第一課：うれー　のーかや？</title>
 
-		<link rel="stylesheet" href="libraries/reveal/css/reveal.css">
-		<link rel="stylesheet" href="libraries/reveal/css/theme/black.css">
-        <link rel="stylesheet" href="libraries/reveal/css/theme/headerfooter.css"> 
+        <link rel="stylesheet" href="../../libraries/reveal.js-master/dist/reset.css">
+		<link rel="stylesheet" href="../../libraries/reveal.js-master/dist/reveal.css">
+		<link rel="stylesheet" href="../../libraries/reveal.js-master/dist/theme/black.css">
 
-        <!--Add support for earlier versions of Internet Explorer -->
-        <!--[if lt IE 9]>
-        <script src="lib/js/html5shiv.js"></script>
-        <![endif]-->
+        <!-- <link rel="stylesheet" href="../../libraries/reveal.js-master/dist/theme/headerfooter.css">  -->
+
+        <!-- Theme used for syntax highlighted code -->
+        <link rel="stylesheet" href="../../libraries/reveal.js-master/plugin/highlight/monokai.css"> 
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="libraries/reveal/lib/css/zenburn.css">
+		<!-- <link rel="stylesheet" href="../../libraries/reveal/lib/css/zenburn.css"> -->
 
 		<!-- Printing and PDF exports -->
-		<script src="libraries/reveal/js/print.js"></script>
+		<!-- <script src="../../libraries/reveal.js-master/print.js"></script> -->
         <!-- Plays audio -->        
-        <script src="js/audio.js"></script> 
+        <script src="../../js/audio.js"></script> 
         <!-- Anchor from local link rather than base -->
-        <script src="js/localanchor.js"></script>
+        <script src="../../js/localanchor.js"></script>
+
 
         <!-- Style for the slides -->
-        <link rel="stylesheet" href="libraries/reveal/css/slides.css"></script>
+        <!-- <link rel="stylesheet" href="../../libraries/reveal.js-master/dist/slides.css">  -->
+
+        <style>
+        .container{
+            display: flex;
+        }
+        .col{
+            flex: 1;
+        }
+        </style>
 
 	</head>
-
 
 	<body>
 
@@ -41,7 +51,7 @@
 
 				<section id="title">
 
-                    <!-- <audio data-autoplay src="audio/lessons/1/diimeeramuninaraa.wav"></audio> -->
+                    <!-- <audio data-autoplay src="../../audio/lessons/1/diimeeramuninaraa.wav"></audio> -->
                     
                     <h2><span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/diimeeramuninaraa.wav')">でぃー、 めーらむに　ならー！</span></h2>
 
@@ -50,7 +60,7 @@
 				<section>
                     
                     <!-- autoplays an audio file -->
-                    <audio data-autoplay src="audio/lessons/1/ureenookaja.wav"></audio>
+                    <audio data-autoplay src="../../audio/lessons/1/ureenookaja.wav"></audio>
 
                     <h2>第一課</h2>
                     
@@ -81,7 +91,7 @@
                     <br> 
                     <a class="local" href="#/vocabreview">単語復習</a>
                     <br>
-                    <a href="lessons/1/review.html">復習</a>                   
+                    <a href="../../lessons/1/review.html">復習</a>                   
                 </section>
 
                 <!-- Vocabulary-->
@@ -90,45 +100,46 @@
 
                     言葉を覚えましょう！
 
-                    <div class="row">
-                        <div class="column">
-                        <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/in.wav')">
-                            <audio data-autoplay src="audio/lessons/1/in.wav"></audio>
-                            <figure>
-                                <img width="40%" src="img/dog.png">
-                                <figcaption>いん</figcaption>
-                            </figure>
-                        </span>
+                    <div class="container">
+
+                        <div class="col">
+
+                            <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/in.wav')">
+                                <audio data-autoplay src="../../audio/lessons/1/in.wav"></audio>
+                                <figure>
+                                    <img width="40%" src="../../img/dog.png">
+                                    <figcaption>いん</figcaption>
+                                </figure>
+                            </span>
+
+                            <span class="fragment" data-fragment-index="2" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/majaa.wav')">
+                                <audio data-autoplay src="../../audio/lessons/1/majaa.wav"></audio>
+                                <figure>
+                                    <img width="40%" src="../../img/cat.png">
+                                    <figcaption>まやー</figcaption>
+                                </figure>
+                            </span>
+
                         </div>
-                        <div class="column">
-                        <span class="fragment" data-fragment-index="2" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/majaa.wav')">
-                            <audio data-autoplay src="audio/lessons/1/majaa.wav"></audio>
-                            <figure>
-                                <img width="40%" src="img/cat.png">
-                                <figcaption>まやー</figcaption>
-                            </figure>
-                        </span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="column">
+
+                        <div class="col">
                             <span class="fragment" data-fragment-index="3" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/symabasonnary.wav')">
-                            <audio data-autoplay src="audio/lessons/1/symabasonnary.wav"></audio>
+                            <audio data-autoplay src="../../audio/lessons/1/symabasonnary.wav"></audio>
                             <figure>
-                                <img width="40%" src="img/banana.png">
+                                <img width="40%" src="../../img/banana.png">
                                 <figcaption>すぃま　ばそんなるぃ</figcaption>
                             </figure>
                             </span>
-                        </div>
-                        <div class="column">
+
                             <span class="fragment" data-fragment-index="4" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/funin.wav')">
-                            <audio data-autoplay src="audio/lessons/1/funin.wav"></audio>
+                            <audio data-autoplay src="../../audio/lessons/1/funin.wav"></audio>
                             <figure>
-                                <img width="40%" src="img/citrus.png">
+                                <img width="40%" src="../../img/citrus.png">
                                 <figcaption>ふにん</figcaption>
                             </figure>
                             </span>
                         </div>
+
                     </div>
                     
                 </section>
@@ -140,39 +151,39 @@
                 <section>
 
                 	<!-- autoplays an audio file -->
-                 	<audio data-autoplay src="audio/lessons/1/ureenookaja.wav"></audio>
+                 	<audio data-autoplay src="../../audio/lessons/1/ureenookaja.wav"></audio>
                     
-                    <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureenookaja.wav')">うれー　<span style="color:red">のー</span>かやー？<br><img width="20%" src="img/dog.png"/> </span>
+                    <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureenookaja.wav')">うれー　<span style="color:red">のー</span>かやー？<br><img width="20%" src="../../img/dog.png"/> </span>
                     
                     <br>
                     
-                    <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureeinju.wav')"><audio data-autoplay src="audio/lessons/1/ureeinju.wav"></audio>うれー　<span style="color:green">いん</span>ゆ！</span>
+                    <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureeinju.wav')"><audio data-autoplay src="../../audio/lessons/1/ureeinju.wav"></audio>うれー　<span style="color:green">いん</span>ゆ！</span>
                 
                 </section>
                 <section>
 
                 	<!-- autoplays an audio file -->
-                 	<audio data-autoplay src="audio/lessons/1/ureenookaja.wav"></audio>
+                 	<audio data-autoplay src="../../audio/lessons/1/ureenookaja.wav"></audio>
                     
-                    <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureenookaja.wav')">うれー　<span style="color:red">のー</span>かやー？<br><img width="20%" src="img/cat.png"/></span>
+                    <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureenookaja.wav')">うれー　<span style="color:red">のー</span>かやー？<br><img width="20%" src="../../img/cat.png"/></span>
                     
                     <br>
                     
-                    <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureemajaaju.wav')"><audio data-autoplay src="audio/lessons/1/ureemajaaju.wav"></audio>うれー　<span style="color:green">まやー</span>ゆ！</span>                	
+                    <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureemajaaju.wav')"><audio data-autoplay src="../../audio/lessons/1/ureemajaaju.wav"></audio>うれー　<span style="color:green">まやー</span>ゆ！</span>                	
                  	
                 
                 </section>
                 <section>
 
                 	<!-- autoplays an audio file -->
-                 	<audio data-autoplay src="audio/lessons/1/ureenookaja.wav"></audio>
+                 	<audio data-autoplay src="../../audio/lessons/1/ureenookaja.wav"></audio>
                     
-                    <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureenookaja.wav')">うれー　<span style="color:red">のー</span>かやー？<br><img width="20%" src="img/banana.png"/></span>
+                    <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureenookaja.wav')">うれー　<span style="color:red">のー</span>かやー？<br><img width="20%" src="../../img/banana.png"/></span>
                     
                     <br>
                     
                     <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureesymabasonnaryju.wav')">
-                    	<audio data-autoplay src="audio/lessons/1/ureesymabasonnaryju.wav"></audio>
+                    	<audio data-autoplay src="../../audio/lessons/1/ureesymabasonnaryju.wav"></audio>
                     	うれー　
                     	<span style="color:green">すぃま　ばそんなるぃ</span>ゆ！
                     </span>                	
@@ -182,14 +193,14 @@
                 <section>
 
                 	<!-- autoplays an audio file -->
-                 	<audio data-autoplay src="audio/lessons/1/ureenookaja.wav"></audio>
+                 	<audio data-autoplay src="../../audio/lessons/1/ureenookaja.wav"></audio>
                     
-                    <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureenookaja.wav')">うれー　<span style="color:red">のー</span>かやー？<br><img width="20%" src="img/citrus.png"/></span>
+                    <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureenookaja.wav')">うれー　<span style="color:red">のー</span>かやー？<br><img width="20%" src="../../img/citrus.png"/></span>
                     
                     <br>
                     
                     <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureefuninju.wav')">
-                    	<audio data-autoplay src="audio/lessons/1/ureefuninju.wav"></audio>
+                    	<audio data-autoplay src="../../audio/lessons/1/ureefuninju.wav"></audio>
                     	うれー　
                     	<span style="color:green">ふにん</span>ゆ！
                     </span>                	
@@ -204,18 +215,18 @@
                 <section>
 
                 	<!-- autoplays an audio file -->
-                 	<audio data-autoplay src="audio/lessons/1/ureenookaja.wav"></audio>
+                 	<audio data-autoplay src="../../audio/lessons/1/ureenookaja.wav"></audio>
                     
                  	<span class="fragment" data-fragment-index="1" style="color:lightblue">答えて下さい！</span>
 
                  	<br>
 
-                    <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureenookaja.wav')">うれー　<span style="color:red">のー</span>かやー？<br><img width="20%" src="img/cat.png"/></span>
+                    <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureenookaja.wav')">うれー　<span style="color:red">のー</span>かやー？<br><img width="20%" src="../../img/cat.png"/></span>
                     
                     <br>
                     
                     <span class="fragment" data-fragment-index="2" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureemajaaju.wav')">
-                    	<audio data-autoplay src="audio/lessons/1/ureemajaaju.wav"></audio>
+                    	<audio data-autoplay src="../../audio/lessons/1/ureemajaaju.wav"></audio>
                     	うれー　
                     	<span style="color:green">まやー</span>ゆ！
                     </span>  
@@ -224,18 +235,18 @@
 
                 <section>
                 	<!-- autoplays an audio file -->
-                 	<audio data-autoplay src="audio/lessons/1/ureenookaja.wav"></audio>
+                 	<audio data-autoplay src="../../audio/lessons/1/ureenookaja.wav"></audio>
                     
                  	<span class="fragment" data-fragment-index="1" style="color:lightblue">答えて下さい！</span>
 
                  	<br>
 
-                    <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureenookaja.wav')">うれー　<span style="color:red">のー</span>かやー？<br><img width="20%" src="img/banana.png"/></span>
+                    <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureenookaja.wav')">うれー　<span style="color:red">のー</span>かやー？<br><img width="20%" src="../../img/banana.png"/></span>
                     
                     <br>
                     
                     <span class="fragment" data-fragment-index="2" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureesymabasonnary.wav')">
-                    	<audio data-autoplay src="audio/lessons/1/ureesymabasonnaryju.wav"></audio>
+                    	<audio data-autoplay src="../../audio/lessons/1/ureesymabasonnaryju.wav"></audio>
                     	うれー　
                     	<span style="color:green">すぃま　ばそんなるぃ</span>ゆ！
                     </span>                               	
@@ -245,18 +256,18 @@
 
                 <section>
                 	<!-- autoplays an audio file -->
-                 	<audio data-autoplay src="audio/lessons/1/ureenookaja.wav"></audio>
+                 	<audio data-autoplay src="../../audio/lessons/1/ureenookaja.wav"></audio>
                     
                  	<span class="fragment" data-fragment-index="1" style="color:lightblue">答えて下さい！</span>
 
                  	<br>
 
-                    <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureenookaja.wav')">うれー　<span style="color:red">のー</span>かやー？<br><img width="20%" src="img/dog.png"/></span>
+                    <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureenookaja.wav')">うれー　<span style="color:red">のー</span>かやー？<br><img width="20%" src="../../img/dog.png"/></span>
                     
                     <br>
                     
                     <span class="fragment" data-fragment-index="2" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureeinnaru.wav')">
-                    	<audio data-autoplay src="audio/lessons/1/ureeinju.wav"></audio>
+                    	<audio data-autoplay src="../../audio/lessons/1/ureeinju.wav"></audio>
                     	うれー　
                     	<span style="color:green">いん</span>ゆ！
                     </span>                               	
@@ -266,18 +277,18 @@
 
                 <section>
                 	<!-- autoplays an audio file -->
-                 	<audio data-autoplay src="audio/lessons/1/ureenookaja.wav"></audio>
+                 	<audio data-autoplay src="../../audio/lessons/1/ureenookaja.wav"></audio>
                     
                  	<span class="fragment" data-fragment-index="1" style="color:lightblue">答えて下さい！</span>
 
                  	<br>
 
-                    <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureenookaja.wav')">うれー　<span style="color:red">のー</span>かやー？<br><img width="20%" src="img/citrus.png"/></span>
+                    <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureenookaja.wav')">うれー　<span style="color:red">のー</span>かやー？<br><img width="20%" src="../../img/citrus.png"/></span>
                     
                     <br>
                     
                     <span class="fragment" data-fragment-index="2" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/ureefuninju.wav')">
-                    	<audio data-autoplay src="audio/lessons/1/ureefuninju.wav"></audio>
+                    	<audio data-autoplay src="../../audio/lessons/1/ureefuninju.wav"></audio>
                     	うれー　
                     	<span style="color:green">ふにん</span>ゆ！
                     </span>                               	
@@ -291,45 +302,46 @@
 
 					言葉を覚えましょう！
 
-	                <div class="row">
-	                	<div class="column">
-		                <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/foo.wav')">
-		                	<audio data-autoplay src="audio/lessons/1/foo.wav"></audio>
-		                	<figure>
-		                		<img width="40%" src="img/man_eat.png">
-		                		<figcaption>ふぉー</figcaption>
-		                	</figure>
-		            	</span>
+	                <div class="container">
+
+	                	<div class="col">
+    		                <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/foo.wav')">
+    		                	<audio data-autoplay src="../../audio/lessons/1/foo.wav"></audio>
+    		                	<figure>
+    		                		<img width="40%" src="../../img/man_eat.png">
+    		                		<figcaption>ふぉー</figcaption>
+    		                	</figure>
+    		            	</span>
+
+    		                <span class="fragment" data-fragment-index="2" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/numu.wav')">
+    		                	<audio data-autoplay src="../../audio/lessons/1/numu.wav"></audio>
+    		                	<figure>
+    		                		<img width="40%" src="../../img/woman_drink.png">
+    		                		<figcaption>ぬむ</figcaption>
+    		                	</figure>
+    		            	</span>
 		            	</div>
-		            	<div class="column">
-		                <span class="fragment" data-fragment-index="2" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/numu.wav')">
-		                	<audio data-autoplay src="audio/lessons/1/numu.wav"></audio>
-		                	<figure>
-		                		<img width="40%" src="img/woman_drink.png">
-		                		<figcaption>ぬむ</figcaption>
-		                	</figure>
-		            	</span>
-		            	</div>
-		            </div>
-	                <div class="row">
-                        <div class="column">
+
+                        <div class="col">
+
 	                		<span class="fragment" data-fragment-index="3" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/mishusyru.wav')">
-	                		<audio data-autoplay src="audio/lessons/1/mishusyru.wav"></audio>
+	                		<audio data-autoplay src="../../audio/lessons/1/mishusyru.wav"></audio>
 	                		<figure>
-	                			<img width="40%" src="img/miso.png">
+	                			<img width="40%" src="../../img/miso.png">
 	                			<figcaption>みしゅ　すぃる</figcaption>
 	                		</figure>
 	            			</span>
-     					</div>
-                    	<div class="column">
+
 		                	<span class="fragment" data-fragment-index="4" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/gusi.wav')">
-		                	<audio data-autoplay src="audio/lessons/1/gusi.wav"></audio>
+		                	<audio data-autoplay src="../../audio/lessons/1/gusi.wav"></audio>
 		                	<figure>
-		                		<img width="40%" src="img/alcohol.png">
+		                		<img width="40%" src="../../img/alcohol.png">
 		                		<figcaption>ぐし</figcaption>
 		                	</figure>
 		            		</span>
+
 		            	</div>
+
 		           	</div>
                     
                 </section>
@@ -340,18 +352,18 @@
                 <section>
 
                     <!-- autoplays an audio file -->
-                    <audio data-autoplay src="audio/lessons/1/injanoodufoo.wav"></audio>
+                    <audio data-autoplay src="../../audio/lessons/1/injanoodufoo.wav"></audio>
                     
                     <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/injanoodufoo.wav')">
 
-                        <img width="20%" src="img/dog.png"/>
+                        <img width="20%" src="../../img/dog.png"/>
                         <span style="color:lightgreen">いん</span>や　<span style="color:red">のー</span>どぅ　<span style="color:green">ふぉー</span>？
                     </span>
 
                     <br>
 
-                    <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/injafunindufoo.wav')"><audio data-autoplay src="audio/lessons/1/injafunindufoo.wav"></audio>
-                        <img width="20%" src="img/citrus.png"/>
+                    <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/injafunindufoo.wav')"><audio data-autoplay src="../../audio/lessons/1/injafunindufoo.wav"></audio>
+                        <img width="20%" src="../../img/citrus.png"/>
                         <span style="color:lightgreen">いん</span>や　<span style="color:lightgreen">ふにん</span>どぅ　<span style="color:green">ふぉー</span>
                     </span>
                 
@@ -360,18 +372,18 @@
                 <section>
 
                     <!-- autoplays an audio file -->
-                    <audio data-autoplay src="audio/lessons/1/majaajanoodufoo.wav"></audio>
+                    <audio data-autoplay src="../../audio/lessons/1/majaajanoodufoo.wav"></audio>
                     
                     <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/majaajanoodufoo.wav')">
 
-                        <img width="20%" src="img/cat.png"/>
+                        <img width="20%" src="../../img/cat.png"/>
                         <span style="color:lightgreen">まやー</span>や　<span style="color:red">のー</span>どぅ　<span style="color:green">ふぉー</span>？
                     </span>
 
                     <br>
 
-                    <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/majaajasymabasonnarydufoo.wav')"><audio data-autoplay src="audio/lessons/1/majaajasymabasonnarydufoo.wav"></audio>
-                        <img width="20%" src="img/banana.png"/>
+                    <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/majaajasymabasonnarydufoo.wav')"><audio data-autoplay src="../../audio/lessons/1/majaajasymabasonnarydufoo.wav"></audio>
+                        <img width="20%" src="../../img/banana.png"/>
                         <span style="color:lightgreen">まやー</span>や　<span style="color:lightgreen">すぃま　ばそんなるぃ</span>どぅ　<span style="color:green">ふぉー</span>
                     </span>
                 
@@ -380,18 +392,18 @@
                 <section>
 
                     <!-- autoplays an audio file -->
-                    <audio data-autoplay src="audio/lessons/1/injanoodunumu.wav"></audio>
+                    <audio data-autoplay src="../../audio/lessons/1/injanoodunumu.wav"></audio>
                     
                     <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/injanoodufoo.wav')">
 
-                        <img width="20%" src="img/dog.png"/>
+                        <img width="20%" src="../../img/dog.png"/>
                         <span style="color:lightgreen">いん</span>や　<span style="color:red">のー</span>どぅ　<span style="color:green">ぬむ</span>？
                     </span>
 
                     <br>
 
-                    <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/injamishusyrudunumu.wav')"><audio data-autoplay src="audio/lessons/1/injamishusyrudunumu.wav"></audio>
-                        <img width="20%" src="img/miso.png"/>
+                    <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/injamishusyrudunumu.wav')"><audio data-autoplay src="../../audio/lessons/1/injamishusyrudunumu.wav"></audio>
+                        <img width="20%" src="../../img/miso.png"/>
                         <span style="color:lightgreen">いん</span>や　<span style="color:green">みしゅ　すぃる</span>どぅ　<span style="color:green">ぬむ</span>
                     </span>
                 
@@ -400,18 +412,18 @@
                 <section>
 
                     <!-- autoplays an audio file -->
-                    <audio data-autoplay src="audio/lessons/1/majaajanoodunumu.wav"></audio>
+                    <audio data-autoplay src="../../audio/lessons/1/majaajanoodunumu.wav"></audio>
                     
                     <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/majaajanoodunumu.wav')">
 
-                        <img width="20%" src="img/cat.png"/>
+                        <img width="20%" src="../../img/cat.png"/>
                         <span style="color:lightgreen">まやー</span>や　<span style="color:red">のー</span>どぅ　<span style="color:green">ぬむ</span>？
                     </span>
 
                     <br>
 
-                    <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/majaajagusidunumu.wav')"><audio data-autoplay src="audio/lessons/1/majaajagusidunumu.wav"></audio>
-                        <img width="20%" src="img/alcohol.png"/>
+                    <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/majaajagusidunumu.wav')"><audio data-autoplay src="../../audio/lessons/1/majaajagusidunumu.wav"></audio>
+                        <img width="20%" src="../../img/alcohol.png"/>
                         <span style="color:lightgreen">まやー</span>や　<span style="color:green">ぐし</span>どぅ　<span style="color:green">ぬむ</span>
                     </span>
                 
@@ -423,47 +435,52 @@
 
                 <section>
 
-                 	<span class="fragment" data-fragment-index="1" style="color:lightblue">答えて下さい！</span>
+                 	<span class="fragment" data-fragment-index="2" style="color:lightblue">答えて下さい！</span>
 
                  	<br>
 
                  	<!-- autoplays an audio file -->
-                 	<audio data-autoplay src="audio/lessons/1/injanoodunumu.wav"></audio>
+                 	<audio data-autoplay src="../../audio/lessons/1/injanoodunumu.wav"></audio>
                     
                     <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/injanoodunumu.wav')">
 
-                    	<img width="20%" src="img/dog.png"/>
+                    	<img width="20%" src="../../img/dog.png"/>
                     	いんや　<span style="color:red">のー</span>どぅ　<span style="color:green">ぬむ</span>？
                     </span>
 
                     <br>
 
-                    <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/injagusidunumu.wav')"><audio data-autoplay src="audio/lessons/1/injagusidunumu.wav"></audio>
-						<img width="20%" src="img/alcohol.png"/>
-                    	いんや　<span style="color:green">ぐし</span>どぅ　<span style="color:green">ぬむ</span>
+					<img width="20%" src="../../img/alcohol.png"/>
+                        
+                    <span class="fragment" data-fragment-index="3"style="cursor:pointer" onclick="javascript:soundfile('lessons/1/injagusidunumu.wav')">
+                        いんや　<span style="color:green">ぐし</span>どぅ　<span style="color:green">ぬむ</span>
+
+                        <audio data-autoplay src="../../audio/lessons/1/injagusidunumu.wav"></audio>
+
                     </span>
 
                 </section>
 
                 <section>
 
-                 	<span class="fragment" data-fragment-index="1" style="color:lightblue">答えて下さい！</span>
+                 	<span class="fragment" data-fragment-index="2" style="color:lightblue">答えて下さい！</span>
 
                  	<br>
 
                  	<!-- autoplays an audio file -->
-                 	<audio data-autoplay src="audio/lessons/1/majaajanoodufoo.wav"></audio>
+                 	<audio data-autoplay src="../../audio/lessons/1/majaajanoodufoo.wav"></audio>
                     
                     <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/majaajanoodufoo.wav')">
 
-                    	<img width="20%" src="img/cat.png"/>
+                    	<img width="20%" src="../../img/cat.png"/>
                     	まやーや　<span style="color:red">のー</span>どぅ　<span style="color:green">ふぉー</span>？
                     </span>
 
                     <br>
 
-                    <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/majaajafunindufoo.wav')"><audio data-autoplay src="audio/lessons/1/majaajafunindufoo.wav"></audio>
-						<img width="20%" src="img/citrus.png"/>
+                    <img width="20%" src="../../img/citrus.png"/>
+
+                    <span class="fragment" data-fragment-index="3"style="cursor:pointer" onclick="javascript:soundfile('lessons/1/majaajafunindufoo.wav')"><audio data-autoplay src="../../audio/lessons/1/majaajafunindufoo.wav"></audio>
                     	まやーや　<span style="color:green">ふにん</span>どぅ　<span style="color:green">ふぉー</span>
                     </span>                             	
                  	
@@ -472,24 +489,25 @@
 
                 <section>
 
-                 	<span class="fragment" data-fragment-index="1" style="color:lightblue">答えて下さい！</span>
+                 	<span class="fragment" data-fragment-index="2" style="color:lightblue">答えて下さい！</span>
 
                  	<br>
 
                  	<!-- autoplays an audio file -->
-                 	<audio data-autoplay src="audio/lessons/1/injanoodufoo.wav"></audio>
+                 	<audio data-autoplay src="../../audio/lessons/1/injanoodufoo.wav"></audio>
                     
                     <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/injanoodufoo.wav')">
 
-                    	<img width="20%" src="img/dog.png"/>
+                    	<img width="20%" src="../../img/dog.png"/>
                     	いんや　<span style="color:red">のー</span>どぅ　<span style="color:green">ふぉー</span>？
                     </span>
 
                     <br>
 
-                    <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/injasymabasonnarydufoo.wav')"><audio data-autoplay src="audio/lessons/1/injasymabasonnarydufoo.wav"></audio>
-						<img width="20%" src="img/banana.png"/>
-                    	いんや　<span style="color:green">すぃま　ばそんなるぃ</span>どぅ　<span style="color:green">ふぉー</span>
+                    <img width="20%" src="../../img/banana.png"/>
+
+                    <span class="fragment" data-fragment-index="3" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/injasymabasonnarydufoo.wav')"><audio data-autoplay src="../../audio/lessons/1/injasymabasonnarydufoo.wav"></audio><span style="font-size:90%";>
+                    	いんや　<span style="color:green">すぃま　ばそんなるぃ</span>どぅ　<span style="color:green">ふぉー</span></span>
                     </span>                             	
                  	
                 
@@ -497,23 +515,24 @@
 
                 <section>
 
-                 	<span class="fragment" data-fragment-index="1" style="color:lightblue">答えて下さい！</span>
+                 	<span class="fragment" data-fragment-index="2" style="color:lightblue">答えて下さい！</span>
 
                  	<br>
 
                  	<!-- autoplays an audio file -->
-                 	<audio data-autoplay src="audio/lessons/1/majaajanoodunumu.wav"></audio>
+                 	<audio data-autoplay src="../../audio/lessons/1/majaajanoodunumu.wav"></audio>
                     
                     <span style="cursor:pointer" onclick="javascript:soundfile('lessons/1/majaajanoodunumu.wav')">
 
-                    	<img width="20%" src="img/cat.png"/>
+                    	<img width="20%" src="../../img/cat.png"/>
                     	まやーや　<span style="color:red">のー</span>どぅ　<span style="color:green">ぬむ</span>？
                     </span>
 
                     <br>
+                    
+                    <img width="20%" src="../../img/miso.png"/>
 
-                    <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/majaajamishusyrudunumu.wav')"><audio data-autoplay src="audio/lessons/1/majaajamishusyrudunumu.wav"></audio>
-						<img width="20%" src="img/miso.png"/>
+                    <span class="fragment" data-fragment-index="3" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/majaajamishusyrudunumu.wav')"><audio data-autoplay src="../../audio/lessons/1/majaajamishusyrudunumu.wav"></audio>
                     	まやーや　<span style="color:green">みしゅ　すぃる</span>どぅ　<span style="color:green">ぬむ</span>
                     </span>                             	
 
@@ -530,15 +549,15 @@
 
                 	<table>
                         <tr>
-                            <td> <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/in.wav')"><audio data-autoplay src="audio/lessons/1/in.wav"></audio>いん</span> 
-                            <br> <span class="fragment" data-fragment-index="3" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/majaa.wav')"><audio data-autoplay src="audio/lessons/1/majaa.wav"></audio>まやー</span> 
-                            <br> <span class="fragment" data-fragment-index="5" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/symabasonnaru.wav')"><audio data-autoplay src="audio/lessons/1/symabasonnaru.wav"></audio>すぃま　ばそんなる</span> 
-                            <br> <span class="fragment" data-fragment-index="7" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/funin.wav')"><audio data-autoplay src="audio/lessons/1/funin.wav"></audio>ふにん</span>
-                            <br> <span class="fragment" data-fragment-index="9" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/foo.wav')"><audio data-autoplay src="audio/lessons/1/foo.wav"></audio>ふぉー</span> <br> <span class="fragment" data-fragment-index="11" style="cursor:pointer" onclick="javascript:soundfile('numu.wav')"><audio data-autoplay src="audio/lessons/1/numu.wav"></audio>ぬむ</span> 
-                            <br> <span class="fragment" data-fragment-index="13" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/mishusyru.wav')"><audio data-autoplay src="audio/lessons/1/mishusyru.wav"></audio>みしゅ　すぃる</span>
-                            <br> <span class="fragment" data-fragment-index="15" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/gusi.wav')"><audio data-autoplay src="audio/lessons/1/gusi.wav"></audio>ぐし</span> 
-                            <br> <span class="fragment" data-fragment-index="17" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/uree.wav')"><audio data-autoplay src="audio/lessons/1/uree.wav"></audio>これは</span> 
-                            <br> <span class="fragment" data-fragment-index="19" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/noo.wav')"><audio data-autoplay src="audio/lessons/1/noo.wav"></audio>のー</span> 
+                            <td> <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/in.wav')"><audio data-autoplay src="../../audio/lessons/1/in.wav"></audio>いん</span> 
+                            <br> <span class="fragment" data-fragment-index="3" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/majaa.wav')"><audio data-autoplay src="../../audio/lessons/1/majaa.wav"></audio>まやー</span> 
+                            <br> <span class="fragment" data-fragment-index="5" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/symabasonnaru.wav')"><audio data-autoplay src="../../audio/lessons/1/symabasonnaru.wav"></audio>すぃま　ばそんなる</span> 
+                            <br> <span class="fragment" data-fragment-index="7" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/funin.wav')"><audio data-autoplay src="../../audio/lessons/1/funin.wav"></audio>ふにん</span>
+                            <br> <span class="fragment" data-fragment-index="9" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/foo.wav')"><audio data-autoplay src="../../audio/lessons/1/foo.wav"></audio>ふぉー</span> <br> <span class="fragment" data-fragment-index="11" style="cursor:pointer" onclick="javascript:soundfile('numu.wav')"><audio data-autoplay src="../../audio/lessons/1/numu.wav"></audio>ぬむ</span> 
+                            <br> <span class="fragment" data-fragment-index="13" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/mishusyru.wav')"><audio data-autoplay src="../../audio/lessons/1/mishusyru.wav"></audio>みしゅ　すぃる</span>
+                            <br> <span class="fragment" data-fragment-index="15" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/gusi.wav')"><audio data-autoplay src="../../audio/lessons/1/gusi.wav"></audio>ぐし</span> 
+                            <br> <span class="fragment" data-fragment-index="17" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/uree.wav')"><audio data-autoplay src="../../audio/lessons/1/uree.wav"></audio>これは</span> 
+                            <br> <span class="fragment" data-fragment-index="19" style="cursor:pointer" onclick="javascript:soundfile('lessons/1/noo.wav')"><audio data-autoplay src="../../audio/lessons/1/noo.wav"></audio>のー</span> 
                             </td>
 
                             <td> <span class="fragment" data-fragment-index="2">犬</span> 
@@ -560,16 +579,33 @@
 
                 <section id="reviewlink">
 
-                    <a href="lessons/1/review.html">復習しましょう！</a>
+                    <a href="../../lessons/1/review.html">復習しましょう！</a>
 
                 </section>
 
 			</div>
 		</div>
 
-		<script src="libraries/reveal/lib/js/head.min.js"></script>
-		<script src="libraries/reveal/js/reveal.js"></script>
-		<script src="libraries/reveal/js/initialize.js"></script>
+		<!-- <script src="../../libraries/reveal.js-master/lib/js/head.min.js"></script> -->
+		<!-- <script src="../../libraries/reveal.js-master/dist/reveal.js"></script>
+		<script src="../../libraries/reveal.js-master/js/initialize.js"></script> -->
+
+        <script src="../../libraries/reveal.js-master/dist/reveal.js"></script>
+        <script src="../../libraries/reveal.js-master/plugin/notes/notes.js"></script>
+        <script src="../../libraries/reveal.js-master/plugin/markdown/markdown.js"></script>
+        <script src="../../libraries/reveal.js-master/plugin/highlight/highlight.js"></script>
+
+        <script>
+            // More info about initialization & config:
+            // - https://revealjs.com/initialization/
+            // - https://revealjs.com/config/
+            Reveal.initialize({
+                hash: true,
+
+                // Learn about plugins: https://revealjs.com/plugins/
+                plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+            });
+        </script>
 
         <!-- Copy same header/footer onto every slide -->
         <style type="text/css">
@@ -606,13 +642,14 @@
                 </div>
 
                 <div id="footer-right">
-                    <a href="lessons.html">授業</a>
+                    <a href="../../lessons.html">授業</a>
                 </div>
 
             </div>
         </div>
 
-        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="../../https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
         <script type="text/javascript">
             // 3. On Reveal.js ready event, copy header/footer <div> into each `.slide-background` <div>
             var header = $('#header').html();
