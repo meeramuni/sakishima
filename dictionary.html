@@ -20,33 +20,16 @@
       <a href="contact.html">連絡</a>
     </div>
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+    <!-- INCLUDING JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 
-    <script>
-
-        $(function() {
-
-
-       var dictionary = [];
-
-       $.getJSON('dictionary.json', function(data) {
-           $.each(data., function(i, f) {
-              var tblRow = "<tr>" + "<td>" + f.meera + "</td>" +
-               "<td>" + f.japanese + "</td>" + "<td>" + f.parse + "</td>" + "<td>" + f.notes + "</td>" + "</tr>"
-               $(tblRow).appendTo("#gloss tbody");
-         });
-
-       });
-
-    });
-    </script>
 </head>
 
 <body>
 
     <div class="wrapper">
     <div class="profile">
-       <table id= "gloss" border="2">
+       <table id= "table" border="2">
             <thead>
                 <th>めーらむに</th>
                 <th>日本語</th>
@@ -60,6 +43,41 @@
 
     </div>
     </div>
+
+    <script>
+        $(document).ready(function () {
+
+            // FETCHING DATA FROM JSON FILE
+            $.getJSON("dictionary.json", 
+                    function (data) {
+                var dictionary = '';
+
+                // ITERATING THROUGH OBJECTS
+                $.each(data, function (key, value) {
+
+                    //CONSTRUCTION OF ROWS HAVING
+                    // DATA FROM JSON OBJECT
+                    dictionary += '<tr>';
+                    dictionary += '<td>' + 
+                        value.meera + '</td>';
+
+                    dictionary += '<td>' + 
+                        value.japanese + '</td>';
+
+                    dictionary += '<td>' + 
+                        value.parse + '</td>';
+
+                    dictionary += '<td>' + 
+                        value.note + '</td>';
+
+                    dictionary += '</tr>';
+                });
+                  
+                //INSERTING ROWS INTO TABLE 
+                $('#table').append(dictionary);
+            });
+        });
+    </script>
 
 </body>
 
