@@ -14,6 +14,32 @@ h1 {
   font-size: 54;
 }
 
+/*Table*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+table.center {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+td, th {
+  border: 2px solid #dddddd;
+  text-align: center;
+  padding: 6px;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #F0F8FF;
+}
+
 /*Navigation bar*/
 .navbar {
   overflow: hidden;
