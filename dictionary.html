@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <base href="https://meeramuni.github.io/sakishima/index.html">
+
+    <title>すぃまむに　ならー！</title>
+    
+    <!--navigation bar-->
+    <div class="navbar">
+      <a href="index.html">ホームページ</a>
+      <a href="about.html">めーらについて</a>
+      <a href="stories.html">物語</a>
+      <a href="lessons.html">授業</a>
+      <a href="games.html">ゲーム</a>
+      <a href="soundcorrespondences.html">音の規則</a>
+      <a href="contact.html">連絡</a>
+    </div>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+
+    <script>
+
+        $(function() {
+
+
+       var people = [];
+
+       $.getJSON('dictionary.json', function(data) {
+           $.each(data, function(i, f) {
+              var tblRow = "<tr>" + "<td>" + f.meera + "</td>" +
+               "<td>" + f.japanese + "</td>" + "<td>" + f.parse + "</td>" + "<td>" + f.notes + "</td>" + "</tr>"
+               $(tblRow).appendTo("#gloss tbody");
+         });
+
+       });
+
+    });
+    </script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+    <div class="profile">
+       <table id= "gloss" border="2">
+            <thead>
+                <th>めーらむに</th>
+                <th>日本語</th>
+                <th>語尾</th>
+                <th>注</th>
+            </thead>
+            <tbody>
+
+            </tbody>
+       </table>
+
+    </div>
+    </div>
+
+</body>
+
+</html>
