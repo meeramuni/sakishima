@@ -27,10 +27,10 @@
         $(function() {
 
 
-       var people = [];
+       var dictionary = [];
 
        $.getJSON('dictionary.json', function(data) {
-           $.each(data, function(i, f) {
+           $.each(data., function(i, f) {
               var tblRow = "<tr>" + "<td>" + f.meera + "</td>" +
                "<td>" + f.japanese + "</td>" + "<td>" + f.parse + "</td>" + "<td>" + f.notes + "</td>" + "</tr>"
                $(tblRow).appendTo("#gloss tbody");
