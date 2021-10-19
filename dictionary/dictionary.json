@@ -1,0 +1,932 @@
+[
+  {
+    "meera": "あはー",
+    "japanese": "そうか？",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": "a"
+  },
+  {
+    "meera": "あんき",
+    "japanese": "言い",
+    "root": "あんく",
+    "root-jp": "言う",
+    "parse": "〜い",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "あんくだ",
+    "japanese": "言った",
+    "root": "あんく",
+    "root-jp": "言う",
+    "parse": "〜だ",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "あんけーる",
+    "japanese": "言っている",
+    "root": "あんく",
+    "root-jp": "言う",
+    "parse": "〜えーる",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "あんじぇー",
+    "japanese": "それでは",
+    "root": "あんず",
+    "root-jp": "そうする",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "あんず",
+    "japanese": "そうする",
+    "root": "あんず",
+    "root-jp": "そうする",
+    "parse": "〜う",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "あんすんが",
+    "japanese": "でも",
+    "root": "あんず",
+    "root-jp": "そうする",
+    "parse": "〜そんが",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "いき",
+    "japanese": "行き",
+    "root": "いく",
+    "root-jp": "行く",
+    "parse": "〜い",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "いく",
+    "japanese": "行く",
+    "root": "いく",
+    "root-jp": "行く",
+    "parse": "〜う",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "いつぃばん",
+    "japanese": "一番",
+    "root": "一番",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "ぃやーぃや",
+    "japanese": "おーいおーい",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "うい",
+    "japanese": "年寄り",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 1,
+    "notes": "老",
+    "audio": ""
+  },
+  {
+    "meera": "うすぃ",
+    "japanese": "牛",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "うだ",
+    "japanese": "居た",
+    "root": "うる",
+    "root-jp": "",
+    "parse": "〜う",
+    "cognate": 1,
+    "notes": "おる",
+    "audio": ""
+  },
+  {
+    "meera": "うむい",
+    "japanese": "思って",
+    "root": "うもー",
+    "root-jp": "",
+    "parse": "〜い",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "うもーだ",
+    "japanese": "思った",
+    "root": "うもー",
+    "root-jp": "",
+    "parse": "〜だ",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "うり",
+    "japanese": "居",
+    "root": "うる",
+    "root-jp": "",
+    "parse": "〜い",
+    "cognate": 1,
+    "notes": "おる",
+    "audio": ""
+  },
+  {
+    "meera": "うり",
+    "japanese": "それ",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "かー",
+    "japanese": "〜れば",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "かい",
+    "japanese": "〜に",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "がしゃーる",
+    "japanese": "〜みたい",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "から",
+    "japanese": "から",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "がらさー",
+    "japanese": "カラス",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "がらす",
+    "japanese": "カラス",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "かんがいだ",
+    "japanese": "考えた",
+    "root": "かんがいる",
+    "root-jp": "",
+    "parse": "〜だ",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "がんずーさー",
+    "japanese": "元気であって",
+    "root": "がんずー",
+    "root-jp": "",
+    "parse": "〜さー",
+    "cognate": 1,
+    "notes": "頑丈",
+    "audio": ""
+  },
+  {
+    "meera": "きー",
+    "japanese": "〜ので",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "きーて",
+    "japanese": "来て",
+    "root": "くー",
+    "root-jp": "",
+    "parse": "〜い〜て",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "くり",
+    "japanese": "これ",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "こーさー",
+    "japanese": "固く",
+    "root": "こー",
+    "root-jp": "",
+    "parse": "〜さー〜い",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "さーばどぅやる",
+    "japanese": "〜しなくてはいけない",
+    "root": "すー",
+    "root-jp": "",
+    "parse": "〜あー〜ば〜どぅ〜なる",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "し",
+    "japanese": "〜で",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "しらるぬ",
+    "japanese": "できない",
+    "root": "すー",
+    "root-jp": "",
+    "parse": "〜あり〜ぬ",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "すぃてぃらり",
+    "japanese": "捨てられ",
+    "root": "すてぇいる",
+    "root-jp": "",
+    "parse": "〜あり〜ぬ",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "すぃに",
+    "japanese": "死に",
+    "root": "すぃぬ",
+    "root-jp": "",
+    "parse": "〜い",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "すだ",
+    "japanese": "した",
+    "root": "すー",
+    "root-jp": "",
+    "parse": "〜だ",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "すんが",
+    "japanese": "〜けど",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "ただーい",
+    "japanese": "ずんずん",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "たてーる",
+    "japanese": "立てる",
+    "root": "たてぃる",
+    "root-jp": "",
+    "parse": "〜う",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "だふぁーだふぁー",
+    "japanese": "がぁーがぁー",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "ちび",
+    "japanese": "尻",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "ちょー",
+    "japanese": "〜そうだ",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "つぬ",
+    "japanese": "角",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "つのー",
+    "japanese": "角は",
+    "root": "つぬ",
+    "root-jp": "",
+    "parse": "〜や",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "でぃ",
+    "japanese": "〜と",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "でぃー",
+    "japanese": "じゃー",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": "dii.wav"
+  },
+  {
+    "meera": "とー",
+    "japanese": "ねー",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "とーとー",
+    "japanese": "あーあー",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "どぅ",
+    "japanese": "〜ぞ",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "係結び",
+    "audio": ""
+  },
+  {
+    "meera": "とぅび",
+    "japanese": "飛び",
+    "root": "とぅぶ",
+    "root-jp": "",
+    "parse": "〜い",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "な",
+    "japanese": "〜に",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "＋動詞",
+    "audio": ""
+  },
+  {
+    "meera": "なき",
+    "japanese": "鳴き",
+    "root": "なく",
+    "root-jp": "",
+    "parse": "〜い",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "ならぬ",
+    "japanese": "ならない",
+    "root": "なる",
+    "root-jp": "",
+    "parse": "〜あぬ",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "なり",
+    "japanese": "成り",
+    "root": "なる",
+    "root-jp": "",
+    "parse": "〜い",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "なんが",
+    "japanese": "〜で",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "にんじゅ",
+    "japanese": "仲間",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "ぬ",
+    "japanese": "〜の",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "ぬ",
+    "japanese": "〜ので",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "ぬぎ",
+    "japanese": "脱ぎ",
+    "root": "ぬぐ",
+    "root-jp": "",
+    "parse": "〜い",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "ぬめー",
+    "japanese": "〜たち",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "ぬめーだ",
+    "japanese": "〜たち",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "ねーなー",
+    "japanese": "なく",
+    "root": "ねーぬ",
+    "root-jp": "",
+    "parse": "〜い",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "ばー",
+    "japanese": "私",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "ばがさーる",
+    "japanese": "若い",
+    "root": "ばが",
+    "root-jp": "",
+    "parse": "〜さー〜う",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "はった",
+    "japanese": "行った",
+    "root": "はる",
+    "root-jp": "",
+    "parse": "〜た",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "はらー",
+    "japanese": "行こう",
+    "root": "はる",
+    "root-jp": "",
+    "parse": "〜あー",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "はり",
+    "japanese": "行き",
+    "root": "はる",
+    "root-jp": "",
+    "parse": "〜い",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "ぴとぅがら",
+    "japanese": "一匹、一頭",
+    "root": "",
+    "root-jp": "",
+    "parse": "ぴとぅ〜がら",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "ふぁーんばー",
+    "japanese": "食べよう",
+    "root": "ふぉー",
+    "root-jp": "",
+    "parse": "〜あーぬ〜ばー",
+    "cognate": 1,
+    "notes": "食う",
+    "audio": ""
+  },
+  {
+    "meera": "ふぁぬどぅらー",
+    "japanese": "食べていけない",
+    "root": "ふぉー",
+    "root-jp": "",
+    "parse": "〜あぬ〜どぅ〜ら",
+    "cognate": 1,
+    "notes": "食う",
+    "audio": ""
+  },
+  {
+    "meera": "ふぉー",
+    "japanese": "食べる",
+    "root": "ふぉー",
+    "root-jp": "",
+    "parse": "〜う",
+    "cognate": 1,
+    "notes": "食う",
+    "audio": ""
+  },
+  {
+    "meera": "ふぉーん",
+    "japanese": "食べる",
+    "root": "ふぉー",
+    "root-jp": "",
+    "parse": "〜う〜ん",
+    "cognate": 1,
+    "notes": "食う",
+    "audio": ""
+  },
+  {
+    "meera": "ふぉーむのー",
+    "japanese": "食べ物",
+    "root": "ふぉー",
+    "root-jp": "",
+    "parse": "〜むぬ〜や",
+    "cognate": 1,
+    "notes": "食う",
+    "audio": ""
+  },
+  {
+    "meera": "ふぉい",
+    "japanese": "食べた",
+    "root": "ふぉー",
+    "root-jp": "",
+    "parse": "〜い",
+    "cognate": 1,
+    "notes": "食う",
+    "audio": ""
+  },
+  {
+    "meera": "ふぉい",
+    "japanese": "食べ",
+    "root": "ふぉー",
+    "root-jp": "",
+    "parse": "〜い",
+    "cognate": 1,
+    "notes": "食う",
+    "audio": ""
+  },
+  {
+    "meera": "ふぉーな",
+    "japanese": "食べるな",
+    "root": "ふぉー",
+    "root-jp": "",
+    "parse": "〜う〜な",
+    "cognate": 1,
+    "notes": "食う",
+    "audio": ""
+  },
+  {
+    "meera": "まい",
+    "japanese": "前",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "まき",
+    "japanese": "牧場",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "みーだ",
+    "japanese": "見た",
+    "root": "みーる",
+    "root-jp": "",
+    "parse": "〜だ",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "みんたま",
+    "japanese": "目玉",
+    "root": "",
+    "root-jp": "",
+    "parse": "みん〜たま",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "むーる",
+    "japanese": "みんな",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "むかす",
+    "japanese": "昔",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "むぬかんがい",
+    "japanese": "知恵を使う",
+    "root": "",
+    "root-jp": "",
+    "parse": "むぬ〜かんがい",
+    "cognate": 1,
+    "notes": "もの＋考え",
+    "audio": ""
+  },
+  {
+    "meera": "むら",
+    "japanese": "村",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 1,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "や",
+    "japanese": "〜は",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "ゆ",
+    "japanese": "〜を",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "ゆんから",
+    "japanese": "〜であるから",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "よー",
+    "japanese": "〜よ",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "らー",
+    "japanese": "〜なー",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "わだー",
+    "japanese": "あなたたち",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "ん",
+    "japanese": "〜も",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "んけん",
+    "japanese": "〜うち",
+    "root": "",
+    "root-jp": "",
+    "parse": "",
+    "cognate": 0,
+    "notes": "",
+    "audio": ""
+  },
+  {
+    "meera": "んまさーる",
+    "japanese": "美味しい",
+    "root": "んま",
+    "root-jp": "",
+    "parse": "〜さー〜う",
+    "cognate": 1,
+    "notes": "うまい",
+    "audio": ""
+  }
+]

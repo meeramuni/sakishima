@@ -1,0 +1,42 @@
+#gameArea{
+	width:800px;
+	margin:auto;
+	margin-top:50px;
+	font-size:13px;
+	padding:4px;
+	background-color:white;
+ 	min-height:300px;
+}
+
+#wordBox{
+	border:2px #69F solid; 
+	border-radius:3px;
+	margin-left:10px;
+	padding:10px;
+	width:300px;
+}
+
+#inputBox{	
+	border:2px #69F solid;	
+	border-radius:3px;	
+	margin-left:10px;	
+	padding:10px;	
+	width:300px;	
+	float:left;
+} 
+
+@media screen and (max-width:800px){
+	#gameArea{
+		width:96%;
+		padding:2%;
+	}
+}
+
+@media screen and (max-width:400px){
+	#wordBox{
+		width:200px;
+	}
+	#inputBox{
+		width:200px;
+	}
+}

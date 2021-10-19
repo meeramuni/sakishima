@@ -1,63 +1,74 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <base href="https://meeramuni.github.io/sakishima/index.html">
-    <link rel="stylesheet" href="css/teststyle.css">
-    <title>第一課：単語</title>
-<!--navigation bar-->
-    <div class="navbar">
-        <a href="index.html">ホームページ</a>
-        <a href="about.html">めーらについて</a>
-        <a href="stories.html">物語</a>
-        <a href="lessons.html">授業</a>
-        <a href="games.html">ゲーム</a>
-        <a href="soundcorrespondences.html">音の規則</a>
-        <a href="contact.html">連絡</a>
-      </div>
-    <h1>
-      <center><a href="index.html"><img src= "http://userdisk.webry.biglobe.ne.jp/013/951/82/N000/000/000/120851330990316431918.JPG" alt="おーりとーり" width="600"></a> </center> <br>
-      <center>
+
+<head> 
+  <meta charset="utf-8">
+  <title>第一課：単語</title>
+  <base href="https://meeramuni.github.io/sakishima/">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="webapp/css/teststyle.css">
+
+  <!-- Create the navigation bar -->
+  <div id="nav" class="navbar"></div>
+
+</head>
+
+<body>
+
+  <h1>
+    <!--want original picture for website picture-->
+    <center>
+
+      <img src="webapp/css/ooritaboori.jpeg" alt="おーりとーり" width="600">
         
-        <a href="lessons/1/index.html">第一課</a>
+        <br>
+
+        <a href="lessons/1">第一課</a>
 
         <br>
 
-        <a href="lessons.html">授業</a>
+        <a href="lessons">授業</a>
         
       </center>
-    </h1>
+  </h1>
 
-  </head>
-  <body>
-<!--quiz layout: calls the white box and buttons-->
-    <div id="frame">
-      <div id="text001">
-        <h1>第一課試験</h1>
-        質問: <text id="number001">0</text><br />
-        分: <text id="score001">0</text>
-        <hr />
-        <div id="message001">単語を覚えていますか</div><br />
-      </div>
-      <div id="text002">
-        <div id="question001"></div>
-        <div id="option001"></div>
-        <div id="option002"></div>
-        <div id="option003"></div>
-        <div id="option004"></div>
-        <div id="answer001"></div>
-        <div id="text001">
-          <div id="disappear001"><button class="buttons001" onclick="begin001()">初めましょう</button></div>
-        </div>
-        <div id="next001"></div>
-      </div>
+  <!--quiz layout: calls the white box and buttons-->
+  <div id="frame">
+    <div id="text001">
+      <h1>第一課試験</h1>
+      質問: <text id="number001">0</text><br />
+      分: <text id="score001">0</text>
+      <hr />
+      <div id="message001">単語を覚えていますか</div><br />
     </div>
+    <div id="text002">
+      <div id="question001"></div>
+      <div id="option001"></div>
+      <div id="option002"></div>
+      <div id="option003"></div>
+      <div id="option004"></div>
+      <div id="answer001"></div>
+      <div id="text001">
+        <div id="disappear001"><button class="buttons001" onclick="begin001()">初めましょう</button></div>
+      </div>
+      <div id="next001"></div>
+    </div>
+  </div>
 
-    <script src = "lessons/1/vocablesson1.js"></script>
+  <!-- JQUERY-->
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  
+  <!-- JAVASCRIPT -->
+  <script src="webapp/js/audio.js"></script>
+  <script src="webapp/js/addnavbar.js"></script>
+  <script src="lessons/1/vocablesson1.js"></script>
 
 </body>
+
 <a href="https://www.ocf.berkeley.edu">
   <img src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin.svg"
        alt="Hosted by the OCF" width="60" height="30"style="border: 0;" />
 </a>
+
 </html>

@@ -91,13 +91,13 @@ $(document).ready(function () {
       myAnswer=myAnswer.slice(0,myAnswer.length-1);}
     if(currentAnswer==myAnswer){
       score++;
-      $('#feedback').append('<img src="soundcorrespondences/tick.png">');
+      $('#feedback').append('<img src="tick.png">');
       $('#inputBox').css("background-color","green");
       $('#inputBox').css("color","white");
       $('#inputBox').val($('#inputBox').val()+"（正解！）");
     }
     else{
-      $('#feedback').append('<img src="soundcorrespondences/cross.png">');
+      $('#feedback').append('<img src="cross.png">');
       $('#inputBox').css("background-color","red");
       $('#inputBox').css("color","white");
       $('#inputBox').val($('#inputBox').val()+"（正解："+currentAnswer+"）");
@@ -117,4 +117,6 @@ $(document).ready(function () {
     gamePosition=4;  
   }//scorePage  
 
+  // document.getElementById('textbox1').focus(); 
+  window.scrollTo(0,0);
 });
