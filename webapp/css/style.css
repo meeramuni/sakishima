@@ -4,10 +4,10 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-color: white;
-  {
-    opacity: 0.5.;
-    filter: alpha(opacity=0); /* For IE8 and earlier */
-  } 
+  
+  opacity: 0.5.;
+  filter: alpha(opacity=0); /* For IE8 and earlier */
+   
 }
 p {
   color: black;
