@@ -15,11 +15,10 @@
   animation-iteration-count: 3; }
 
 body {
-  font-family: "Gotham 4r", sans-serif, sans-serif;
   font-weight: normal;
   background-color: #F2F2F2;
   font-weight: normal;
-  margin-top: 0; }
+}
 
 h1 {
   font-family: "Gotham 7r", sans-serif, sans-serif;
