@@ -1,23 +1,13 @@
 
 function readTextFile(file)
 {
-    var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", file, false);
-    rawFile.onreadystatechange = function ()
-    {
-        if(rawFile.readyState === 4)
-        {
-            if(rawFile.status === 200 || rawFile.status == 0)
-            {
-                var allText = rawFile.responseText;
-                alert(allText);
-            }
-        }
-    }
-    rawFile.send(null);
+  var fs = require("fs");
+  var text = fs.readFileSync(file).toString('utf-8');
+  var textByLine = text.split("\n");
+  return textByLine
 }
 
-var Names = readTextFile("ch1_vocab.txt");
+var Names = readTextFile("CH 1 Memorization/ch1_vocab.txt");
 
 var Buttons = ["a1","a2","a3", "a4"];
 
@@ -72,7 +62,7 @@ function showNextQuestion() {
   
   // pick the first name of the shuffled array as the answer
   var theAnswer = Names[0];
-  var theImage = theAnswer + ".jpg";
+  var theImage = "/CH 1 Memorization/" + theAnswer + ".jpg";
   setImageURL("quizimage", theImage);
   
   // set the 4 buttons to the first 4 shuffled names
