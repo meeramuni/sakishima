@@ -3,6 +3,8 @@ function readTextFile(file)
 {
   var rawFile = new XMLHttpRequest();
     rawFile.open("GET", file, true);
+    alert(rawFile.responseText)
+    alert(rawFile.responseText.split("\n"))
     return rawFile.responseText.split("\n")
 }
 
