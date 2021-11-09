@@ -3,7 +3,7 @@ function readTextFile(file)
 {
   var rawFile = new XMLHttpRequest();
     rawFile.open("GET", file, true);
-    return rawFile.responseText.split(/\n|\r/g)
+    return rawFile.responseText.split("\n")
 }
 
 var Names = readTextFile("CH 1 Memorization/ch1_vocab.txt");
