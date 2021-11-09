@@ -1,7 +1,23 @@
-var Names = [
-  "まやー","いん","すぃま　ばそんなる","ふにん","ふぉー","ぬむ",
-  "みしゅ　すぃる","ぐし"
-  ];
+
+function readTextFile(file)
+{
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", file, false);
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4)
+        {
+            if(rawFile.status === 200 || rawFile.status == 0)
+            {
+                var allText = rawFile.responseText;
+                alert(allText);
+            }
+        }
+    }
+    rawFile.send(null);
+}
+
+var Names = readTextFile("ch1_vocab.txt");
 
 var Buttons = ["a1","a2","a3", "a4"];
 
@@ -10,7 +26,9 @@ var Correct = 0;
 var Streak = 0;
 var BestStreak = 0;
 var WorldRecord = 0;
-  
+
+
+
 onEvent("Begin", "click", function(event) {
     setScreen("Quiz");
     showNextQuestion();
