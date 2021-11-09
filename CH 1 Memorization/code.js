@@ -10,11 +10,11 @@ function readTextFile(file)
             if(rawFile.status === 200 || rawFile.status == 0)
             {
                 var allText = rawFile.responseText;
-                alert(allText);
+                array = allText.split(/\n|\r/g);
             }
         }
     }
-    rawFile.send(null);
+    return array
 }
 
 var Names = readTextFile("CH 1 Memorization/ch1_vocab.txt");
