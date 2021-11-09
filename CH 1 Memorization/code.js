@@ -2,6 +2,7 @@
 function readTextFile(file)
 {
   var rawFile = new XMLHttpRequest();
+  var temp = []
     rawFile.open("GET", file, false);
     rawFile.onreadystatechange = function ()
     {
@@ -11,10 +12,11 @@ function readTextFile(file)
             {
                 var allText = rawFile.responseText;
                 var array = allText.split(/\n|\r/g);
-                return array
+                temp = array;
             }
         }
     }
+  return temp
 }
 
 var Names = readTextFile("CH 1 Memorization/ch1_vocab.txt");
