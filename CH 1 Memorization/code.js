@@ -1,10 +1,20 @@
 
 function readTextFile(file)
 {
-  var fs = require("fs");
-  var text = fs.readFileSync(file).toString('utf-8');
-  var textByLine = text.split("\n");
-  return textByLine
+  var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", file, false);
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4)
+        {
+            if(rawFile.status === 200 || rawFile.status == 0)
+            {
+                var allText = rawFile.responseText;
+                alert(allText);
+            }
+        }
+    }
+    rawFile.send(null);
 }
 
 var Names = readTextFile("CH 1 Memorization/ch1_vocab.txt");
