@@ -8,7 +8,7 @@ function readTextFile(file)
     return rawFile.responseText.split("\n")
 }
 
-var Names = readTextFile("CH 1 Memorization/ch1_vocab.txt");
+var Names = readTextFile("ch1_vocab.txt");
 var Buttons = ["a1","a2","a3", "a4"];
 
 var Tries = 0;
