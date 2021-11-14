@@ -22,6 +22,7 @@
 
 <body>
 
+
     <div class="reveal">
         <div class="slides">
 
@@ -32,9 +33,13 @@
                 <!-- autoplays an audio file -->
                 <audio data-autoplay src="audio/lessons/2/oo-aai.wav"></audio>
 
-                <h2>第二課</h2>
+                <h1>第二課</h1>
                 
-                <span style="cursor:pointer" onclick="javascript:soundfile('lessons/2/oo-aai.wav')"><h2>おー、あーい</h2></span>
+                <span style="cursor:pointer" onclick="javascript:soundfile('lessons/2/oo-aai.wav')"><h2>おー、あーい</h2></span>  
+
+                <br>
+
+                <span><h3>どーでぃん　みーし　たぼーんなーら</h3></span>
             
             </section>
 
@@ -296,7 +301,7 @@
 
                     <div class="col">
 
-                        <span class="fragment" data-fragment-index="4" style="cursor:pointer" onclick="javascript:soundfile('lessons/2/uree.wav')">
+                        <span class="fragment" data-fragment-index="3" style="cursor:pointer" onclick="javascript:soundfile('lessons/2/uree.wav')">
                         <audio data-autoplay src="../../webapp/audio/lessons/2/uree.wav"></audio>
                         <figure>
                             <img width="40%" src="../../webapp/img/3sg.png">
@@ -304,7 +309,7 @@
                         </figure>
                         </span>
 
-                        <span class="fragment" data-fragment-index="3" style="cursor:pointer" onclick="javascript:soundfile('lessons/2/anzy.wav')">
+                        <span class="fragment" data-fragment-index="4" style="cursor:pointer" onclick="javascript:soundfile('lessons/2/anzy.wav')">
                         <audio data-autoplay src="../../webapp/audio/lessons/2/anzy.wav"></audio>
                         <figure>
                             <img width="40%" src="../../webapp/img/man_portrait_speech.gif">
@@ -627,71 +632,113 @@
 
             <section>
 
-                <span class="fragment" data-fragment-index="1" style="color:lightblue">答えて下さい！</span>
-
-                <br>
-
                 <!-- autoplays an audio file -->
                 <audio data-autoplay src="../../webapp/audio/lessons/2/.wav"></audio>
                 
-                <span style="cursor:pointer" onclick="javascript:soundfile('lessons/2/.wav')">
+                <span style="cursor:pointer" onclick="javascript:soundfile('lessons/2/.wav')"></span>
+
+                <div class="r-stack">
+                    <span class="fragment" data-fragment-index="2" style="color:lightblue">
+                        <span class="fragment fade-out" data-fragment-index="4">
+                            答えて下さい！
+                        </span>
+                    </span>
+                    <span class="fragment" data-fragment-index="5" style="color:lightblue">
+                            答えて下さい！
+                    </span>
+                </div>
+                
+                <p class="fragment fade-out" data-fragment-index="4" style="font-size:80%">
+                    <span style="color:lightgreen">ばー</span><span style="color:red">や</span>　たるー<span style="color:red">でぃどぅ</span>　<span style="color:lightgreen">あんずぃ</span>ゆー。
+                </p>
+
+                <figure class="fragment" data-fragment-index="1">
+                    <p class="fragment fade-out" data-fragment-index="4" style="font-size:80%">
+                        <span style="color:lightgreen">わー</span><span style="color:red">や</span>　のー<span style="color:red">でぃどぅ</span>　<span style="color:lightgreen">あんじ</span><span style="color:red">ょーる</span>かやー？
+                    </p>
+                </figure>
+
+                <span class="fragment" data-fragment-index="4">
+                    <span style="color:lightgreen;font-size:80%">どーでぃん　みーし　たぼーんなーら。</span>
+                </span>
 
                 <div class="r-stack">
 
-                    <figure class="fragment fade-out" data-fragment-index="1">
-                        <p><span style="color:lightgreen">ばー</span><span style="color:red">や</span>　たるー<span style="color:red">でぃどぅ</span>　<span style="color:lightgreen">あんずぃ</span>ゆー。</p>
-                        <img width="20%" src="../../webapp/img/man_gesture_me.gif">
-                    </figure>
-                    <figure class="fragment" data-fragment-index="3">
-                        <p><span style="color:lightgreen">ばー</span><span style="color:red">や</span>　たるー<span style="color:red">でぃどぅ</span>　<span style="color:lightgreen">あんずぃ</span>ゆー。</p>
-                        <img width="20%" src="../../webapp/img/man_portrait_speaking.gif">
-                    </figure>
-
-                    <figure class="fragment" data-fragment-index="1">
-                        <p class="fragment" data-fragment-index="1"><span style="color:lightgreen">わー</span><span style="color:red">や</span>　のー<span style="color:red">でぃどぅ</span>　<span style="color:lightgreen">あんじ</span><span style="color:red">ょーる</span>かやー？</p>
-
-                        <img width="20%" src="../../webapp/img/man_gesture_you.gif">
-
-                        <p class="fragment" data-fragment-index="2"><span style="color:lightgreen">ばー</span><span style="color:red">や</span>　〇〇<span style="color:red">でぃどぅ</span>　<span style="color:lightgreen">あんずぃ</span>ゆー。</p>
-                        <p class="fragment" data-fragment-index="4"><span style="color:lightgreen">どーでぃん　みーし　たぼーんなーら。</p>
-
-                    </figure>
-
+                    <img class="fragment fade-out" data-fragment-index="1" width="20%" src="../../webapp/img/man_gesture_me.gif">
+                    <img class="fragment current-visible" data-fragment-index="1" width="20%" src="../../webapp/img/man_gesture_you.gif">
+                    <span class="fragment" data-fragment-index="2">
+                        <img class="fragment fade-out" data-fragment-index="4" width="20%" src="../../webapp/img/man_portrait.png">
+                    </span>
+                    <img class="fragment current-visible" data-fragment-index="4" width="20%" src="../../webapp/img/man_portrait_speaking.gif">
+                    <img class="fragment" data-fragment-index="5" width="20%" src="../../webapp/img/man_portrait.png">
+                    
                 </div>
+
+                <br>
+
+                <p class="fragment current-visible" data-fragment-index="3" style="font-size:80%">
+                    <span style="color:lightgreen">ばー</span><span style="color:red">や</span>　〇〇<span style="color:red">でぃどぅ</span>　<span style="color:lightgreen">あんずぃ</span>ゆー。
+                </p>
+
+
+                <p class="fragment" data-fragment-index="6"><span style="color:lightgreen;font-size:80%">どーでぃん　みーし　たぼーんなーら。</p>
 
                 <br>
 
             </section>   
 
-            <section>
-
-                <span class="fragment" data-fragment-index="1" style="color:lightblue">答えて下さい！</span>
-
-                <br>
+    <section>
 
                 <!-- autoplays an audio file -->
                 <audio data-autoplay src="../../webapp/audio/lessons/2/.wav"></audio>
                 
-                <span style="cursor:pointer" onclick="javascript:soundfile('lessons/2/.wav')">
+                <span style="cursor:pointer" onclick="javascript:soundfile('lessons/2/.wav')"></span>
+
+                <div class="r-stack">
+                    <span class="fragment" data-fragment-index="2" style="color:lightblue">
+                        <span class="fragment fade-out" data-fragment-index="4">
+                            答えて下さい！
+                        </span>
+                    </span>
+                    <span class="fragment" data-fragment-index="5" style="color:lightblue">
+                            答えて下さい！
+                    </span>
+                </div>
+                
+                <p class="fragment fade-out" data-fragment-index="4" style="font-size:80%">
+                    <span style="color:lightgreen">ばー</span><span style="color:red">や</span>　たるー<span style="color:red">でぃどぅ</span>　<span style="color:lightgreen">あんずぃ</span>ゆー。
+                </p>
+
+                <figure class="fragment" data-fragment-index="1">
+                    <p class="fragment fade-out" data-fragment-index="4" style="font-size:80%">
+                        <span style="color:lightgreen">わー</span><span style="color:red">や</span>　のー<span style="color:red">でぃどぅ</span>　<span style="color:lightgreen">あんじ</span><span style="color:red">ょーる</span>かやー？
+                    </p>
+                </figure>
+
+                <span class="fragment" data-fragment-index="4">
+                    <span style="color:lightgreen;font-size:80%">どーでぃん　みーし　たぼーんなーら。</span>
+                </span>
 
                 <div class="r-stack">
 
-                            <figure class="fragment fade-out" data-fragment-index="1">
-                                <p><span style="color:lightgreen">ばー　なー</span>や　<span style="color: red">なびーゆー</span>。</p>
-                                <img width="20%" src="../../webapp/img/woman_gesture_me.gif">
-                            </figure>
+                    <img class="fragment fade-out" data-fragment-index="1" width="20%" src="../../webapp/img/woman_gesture_me.gif">
+                    <img class="fragment current-visible" data-fragment-index="1" width="20%" src="../../webapp/img/woman_gesture_you.gif">
+                    <span class="fragment" data-fragment-index="2">
+                        <img class="fragment fade-out" data-fragment-index="4" width="20%" src="../../webapp/img/woman.png">
+                    </span>
+                    <img class="fragment current-visible" data-fragment-index="4" width="20%" src="../../webapp/img/woman_portrait_speaking.gif">
+                    <img class="fragment" data-fragment-index="5" width="20%" src="../../webapp/img/woman.png">
+                    
+                </div>
 
-                            <figure class="fragment" data-fragment-index="1">
+                <br>
 
-                                <img width="20%" src="../../webapp/img/woman_gesture_you.gif">
+                <p class="fragment current-visible" data-fragment-index="3" style="font-size:80%">
+                    <span style="color:lightgreen">ばー</span><span style="color:red">や</span>　〇〇<span style="color:red">でぃどぅ</span>　<span style="color:lightgreen">あんずぃ</span>ゆー。
+                </p>
 
-                                <p class="fragment" data-fragment-index="2"><span style="color:lightgreen">ばー　なー</span>や　<span style="color: red">〇〇ゆー</span></p>
-                                <p class="fragment" data-fragment-index="3"><span style="color:lightgreen">どーでぃん　みーし　たぼーんなーら。</p>
 
-
-                            </figure>
-
-                        </div>
+                <p class="fragment" data-fragment-index="6"><span style="color:lightgreen;font-size:80%">どーでぃん　みーし　たぼーんなーら。</p>
 
                 <br>
 
@@ -699,7 +746,13 @@
 
             <!-- Review-->
 
-            <section id="vocabreview"><h2>復習しましょう！</h2></section>
+            <section id="vocabreview">
+
+                <h2>復習しましょう！</h2>
+
+                進む前に<a href="https://forms.gle/FRNDrnyCzBiHqv618" target="_blank">フィードバック</a>お願いします！
+
+            </section>
 
             <section>
 
