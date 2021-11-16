@@ -1,11 +1,13 @@
+// Importing the fs module
+var fs = require("fs")
 
-const logFileText = async file => {
-    const response = await fetch(file)
-    const text = await response.text()
-    console.log(text)
-}
+// Intitializing the readFileLines with filename
+var Names = fs.readFile('ch1_vocab.txt', function(err, data) {
+   if(err) throw err;
+      var array = data.toString().split("\n");
+      return array
+});
 
-var Names = logFileText('ch1_vocab.txt');
 var Buttons = ["a1","a2","a3", "a4"];
 
 var Tries = 0;
