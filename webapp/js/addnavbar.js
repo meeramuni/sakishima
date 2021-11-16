@@ -5,7 +5,6 @@ $(document).ready(function () {
 
   navitems += '<a href="index">ホームページ</a>' +
          '<a href="about">めーらについて</a>' +
-         '<a href="howto">ウェブサイトの使い方</a>' +
          '<a href="stories">物語</a>' +
          '<a href="lessons">授業</a>' +
          '<a href="games">ゲーム</a>' +
