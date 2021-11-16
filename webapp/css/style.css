@@ -78,7 +78,10 @@ tr:nth-child(even) {
   /*display: flex;*/
   flex:1;
   flex-flow: row wrap;
-  padding: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 /* iframe container */
