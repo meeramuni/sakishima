@@ -1,6 +1,6 @@
 $(document).ready(function () { 
 
-  var Names = [];
+  var Names = new Array;
   var Tries = 0;
   var Correct = 0;
   var Streak = 0;
@@ -57,7 +57,7 @@ $(document).ready(function () {
     Shuffle(Names);
     
     // pick the first name of the shuffled array as the answer
-    var theAnswer = Names[0];
+    var theAnswer = decodeURI(Names[0]);
     var theImage = theAnswer + ".jpg";
     setImageURL("quizimage", theImage);
     
