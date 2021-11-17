@@ -58,7 +58,7 @@ $(document).ready(function () {
     
     // pick the first name of the shuffled array as the answer
     var theAnswer = decodeURI(Names[0]);
-    var theImage = theAnswer + ".jpg";
+    var theImage = "CH 1 Memorization/" + theAnswer + ".jpg";
     setImageURL("quizimage", theImage);
     
     // set the 4 buttons to the first 4 shuffled names
