@@ -33,7 +33,7 @@ $(document).ready(function () {
       });
   });
 
-  $.getJSON('CH 1 Memorization/ch'+ LessonNumber +'_vocab.json', function(data) {
+  $.getJSON('memorization/ch'+ LessonNumber + "/ch" + LessonNumber +'_vocab.json', function(data) {
     for(i=0;i<data.vocab.length;i++){ 
       Names[i] = data.vocab[i];
     }
@@ -74,7 +74,7 @@ $(document).ready(function () {
     
     // pick the first name of the shuffled array as the answer
     var theAnswer = decodeURI(Names[0]);
-    var theImage = "CH 1 Memorization/" + theAnswer + ".jpg";
+    var theImage = "memorization/" + theAnswer + ".jpg";
     setImageURL("quizimage", theImage);
     
     // set the 4 buttons to the first 4 shuffled names
