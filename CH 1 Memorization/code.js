@@ -6,22 +6,38 @@ $(document).ready(function () {
   var Streak = 0;
   var BestStreak = 0;
   var WorldRecord = 0;
-
-  $.getJSON('CH 1 Memorization/ch1_vocab.json', function(data) {
-      for(i=0;i<data.vocab.length;i++){ 
-        Names[i] = data.vocab[i];
-      }
-  })
-
+  var LessonNumber;
   var Buttons = ["a1","a2","a3", "a4"];
-
+  
   onEvent("Begin", "click", function(event) {
-      setScreen("Quiz");
+    setScreen("SelectLesson");
+  });
+
+  onEvent("lesson1", "click", function(event) {
+    // choose lesson
+    LessonNumber = '1';
+    setScreen("Quiz");
       showNextQuestion();
       getKeyValue("highscore", function (value) {
         WorldRecord = value;
       });
-    });
+  });
+
+  onEvent("lesson2", "click", function(event) {
+    // choose lesson
+    LessonNumber = '2';
+    setScreen("Quiz");
+      showNextQuestion();
+      getKeyValue("highscore", function (value) {
+        WorldRecord = value;
+      });
+  });
+
+  $.getJSON('CH 1 Memorization/ch'+ LessonNumber +'_vocab.json', function(data) {
+    for(i=0;i<data.vocab.length;i++){ 
+      Names[i] = data.vocab[i];
+    }
+  });
   
   function Shuffle(L) {
     for (var i = 0; i < L.length-1; i++) {

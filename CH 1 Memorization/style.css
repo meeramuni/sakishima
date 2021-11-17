@@ -16,7 +16,7 @@
   margin-left: 0px;
   height: 30px;
   width: 80px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 14px;
   border-top-style: solid;
   border-right-style: solid;
@@ -52,7 +52,7 @@
   padding-bottom: 2px;
   padding-left: 2px;
   line-height: 1;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 14px;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -90,7 +90,7 @@
   margin-left: 0px;
   width: 200px;
   height: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 14px;
   color: rgb(0, 0, 0);
   border-top-style: solid;
@@ -131,7 +131,7 @@
 #divApplab.appModern select.appModernDesign:hover {
   width: 200px;
   height: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 14px;
   margin-top: 0px;
   margin-right: 0px;
@@ -177,7 +177,7 @@
 #divApplab.appModern div.textArea.appModernDesign:hover {
   width: 200px;
   height: 100px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 14px;
   color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
@@ -302,7 +302,7 @@
   left: 5px;
   top: 190px;
   text-align: center;
-  font-family: Georgia, serif;
+  font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
 #divApplab.appModern #Begin {
@@ -329,6 +329,11 @@
   display: none;
 }
 
+#divApplab.appModern #SelectLesson {
+  background-color: rgb(45, 125, 250);
+  display: none;
+}
+
 #divApplab.appModern #label2 {
   font-size: 27px;
   width: 310px;
@@ -336,6 +341,22 @@
   left: 5px;
   top: 30px;
   text-align: center;
+}
+
+#divApplab.appModern #lesson1 {
+  height: 55px;
+  width: 125px;
+  color: white;
+  left: 15px;
+  top: 265px;
+}
+
+#divApplab.appModern #lesson2 {
+  height: 55px;
+  width: 125px;
+  color: white;
+  left: 15px;
+  top: 265px;
 }
 
 #divApplab.appModern #a1 {
