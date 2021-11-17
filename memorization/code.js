@@ -124,7 +124,6 @@ $(document).ready(function () {
     Tries++;
     Streak=0;
     showNewScore();
-    
   }
 
   onEvent("a2", "click", function(event) {
