@@ -1,22 +1,15 @@
-// Importing the fs module
-var fs = require("fs")
-
-// Intitializing the readFileLines with filename
-var Names = fs.readFile('ch1_vocab.txt', function(err, data) {
-   if(err) throw err;
-      var array = data.toString().split("\n");
-      return array
-});
-
-var Buttons = ["a1","a2","a3", "a4"];
-
+var Names;
 var Tries = 0;
 var Correct = 0;
 var Streak = 0;
 var BestStreak = 0;
 var WorldRecord = 0;
 
+$.getJSON('ch1_vocab/vocab.json', function(data) {
+  Names = data.vocab
+})
 
+var Buttons = ["a1","a2","a3", "a4"];
 
 onEvent("Begin", "click", function(event) {
     setScreen("Quiz");
