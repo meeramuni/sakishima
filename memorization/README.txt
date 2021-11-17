@@ -1,6 +1,6 @@
-# README for CH 1 Memorization #
+# README for Memorization #
 
-This is the README file for the CH 1 Memorization app. It's a great place to write
+This is the README file for the Memorization app. It's a great place to write
 down some notes about how your app works. For starters, here is some information
 about the other files in this folder.
 
