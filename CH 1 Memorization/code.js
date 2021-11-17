@@ -1,4 +1,4 @@
-var Names;
+var Names = [];
 var Tries = 0;
 var Correct = 0;
 var Streak = 0;
@@ -6,7 +6,10 @@ var BestStreak = 0;
 var WorldRecord = 0;
 
 $.getJSON('ch1_vocab/vocab.json', function(data) {
-  Names = data.vocab
+  numberOfQuestions=data.vocab.length;
+    for(i=0;i<data.vocab.length;i++){ 
+      Names[i] = data.vocab[i];
+    }
 })
 
 var Buttons = ["a1","a2","a3", "a4"];
