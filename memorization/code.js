@@ -9,13 +9,7 @@ $(document).ready(function () {
   var LessonNumber = 1;
   var Buttons = ["a1","a2","a3", "a4"];
 
-  $.getJSON('memorization/ch'+ LessonNumber + "/ch" + LessonNumber +'_vocab.json', function(data) {
-    for(i=0;i<data.vocab.length;i++){ 
-      Names[i] = data.vocab[i];
-    }
-  });
-  
-  onEvent("Begin", "click", function(event) {
+  onEvent("begin", "click", function(event) {
     setScreen("SelectLesson");
   });
 
