@@ -1,4 +1,3 @@
-$(document).ready(function () { 
 
   var Names = new Array;
   var Tries = 0;
@@ -141,4 +140,4 @@ $(document).ready(function () {
     wrongAnswer("a4");
   });
 
-});
+
