@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Dictionary</title>
+  <base href="https://www.ocf.berkeley.edu/~sakishima/template/">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="webapp/css/style.css">
+
+    <!-- Create the navigation bar -->
+    <div id="nav" class="navbar"></div>
+
+</head>
+
+<body>
+
+    <h1>
+    <!--want original picture for website picture-->
+    <center>
+
+      <img src="webapp/css/ooritaboori.jpeg" alt="おーりとーり" width="600">
+
+    </center> 
+
+    </h1>
+
+    <h1><center>辞書</center></h1>
+
+    <table id="table" class="center">
+
+        <thead>
+            <th>めーらむに</th>
+            <th>日本語</th>
+            <th>語根</th>
+            <th>語尾</th>
+            <th>注</th>
+            <th>音</th>
+        </thead>
+
+        <tbody>
+
+        </tbody>
+        
+    </table>
+
+    <!-- JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <!-- Javascript -->
+    <script src='webapp/js/audio.js'></script>
+    <script src="webapp/js/addnavbar.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+
+            // FETCHING DATA FROM JSON FILE
+            $.getJSON("dictionary/dictionary.json", 
+                function (data) {
+                var dictionary = '';
+
+                // ITERATING THROUGH OBJECTS
+                $.each(data, function (key, value) {
+
+                    //CONSTRUCTION OF ROWS HAVING
+                    // DATA FROM JSON OBJECT
+                    dictionary += '<tr>';
+                    dictionary += '<td>' + 
+                        value.meera + '</td>';
+
+                    dictionary += '<td>' + 
+                        value.japanese + '</td>';
+
+                    dictionary += '<td>' + 
+                        value.root + '</td>';
+
+                    dictionary += '<td>' + 
+                        value.parse + '</td>';
+
+                    dictionary += '<td>' + 
+                        value.notes + '</td>';
+
+                    dictionary += '<td>' +  
+                        "<span style='cursor:pointer' onclick='javascript:soundfile(\"vocab/" + 
+                        value.audio + "\")'>&#128264;</span></td>";
+
+                    dictionary += '</tr>';
+                });
+                  
+                //INSERTING ROWS INTO TABLE 
+                $('#table').append(dictionary);
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
