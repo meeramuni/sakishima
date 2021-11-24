@@ -78,6 +78,20 @@ tr:nth-child(even) {
   /*display: flex;*/
   flex:1;
   flex-flow: row wrap;
+  padding-bottom: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.box img {
+  width: 90%;
+}
+
+.box-games {
+  /*display: flex;*/
+  flex:1;
+  flex-flow: row wrap;
+  text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 150px;
