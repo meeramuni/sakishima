@@ -9,12 +9,9 @@ $(document).ready(function () {
   var LessonNumber = 1;
   var Buttons = ["a1","a2","a3", "a4"];
 
-  document.getElementById("begin").addEventListener("click", begin);
-
-
-  function begin(event) {
+  onEvent("begin", "click", function(event) {
     setScreen("SelectLesson");
-  };
+  });
 
   onEvent("lesson1", "click", function(event) {
     // choose lesson
