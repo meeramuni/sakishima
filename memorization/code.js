@@ -1,6 +1,7 @@
 $(document).ready(function () { 
 
   var Names = new Array;
+  var dictionary = {};
   var Tries = 0;
   var Correct = 0;
   var Streak = 0;
@@ -35,7 +36,8 @@ $(document).ready(function () {
 
   $.getJSON('memorization/ch'+ LessonNumber + "/ch" + LessonNumber +'_vocab.json', function(data) {
     for(i=0;i<data.vocab.length;i++){ 
-      Names[i] = data.vocab[i];
+      Names[i] = data.vocab[i].meera;
+      dictionary[Names[i]] = data.vocab[i].english;
     }
   });
   
@@ -74,7 +76,7 @@ $(document).ready(function () {
     
     // pick the first name of the shuffled array as the answer
     var theAnswer = decodeURI(Names[0]);
-    var theImage = "memorization/" + theAnswer + ".jpg";
+    var theImage = "webapp/img/" + dictionary[theAnswer] + ".png";
     setImageURL("quizimage", theImage);
     
     // set the 4 buttons to the first 4 shuffled names

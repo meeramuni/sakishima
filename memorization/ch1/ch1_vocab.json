@@ -1,10 +1,35 @@
 {"vocab": [
-        "いん",
-        "すぃま　ばそんなる",
-        "ふにん",
-        "ふぉー",
-        "ぬむ",
-        "みしゅ　すぃる",
-        "ぐし"
+    { 
+        "english": "dog", 
+        "meera": "いん"
+    },
+    { 
+        "english": "cat", 
+        "meera": "まやー"
+    },
+    { 
+        "english": "banana", 
+        "meera": "すぃま　ばそんなる"
+    },
+    {     
+        "english": "citrus", 
+        "meera": "ふにん"
+    },
+    {     
+        "english": "man_eat", 
+        "meera": "ふぉー"
+    },
+    {     
+        "english": "woman_drink", 
+        "meera": "ぬむ"
+    },   
+    {     
+        "english": "miso", 
+        "meera": "みしゅ　すぃる"
+    },   
+    {     
+        "english": "alcohol", 
+        "meera":  "ぐし"
+    }          
     ]
 }
