@@ -1,10 +1,51 @@
 {"vocab": [
-    "いん",
-    "すぃま　ばそんなる",
-    "ふにん",
-    "ふぉー",
-    "ぬむ",
-    "みしゅ　すぃる",
-    "ぐし"
-]
+    { 
+        "english": "person", 
+        "meera": "ぷぃとぅ"
+    },
+    { 
+        "english": "woman", 
+        "meera": "みーどぅん　ぷぃとぅ"
+    },
+    { 
+        "english": "man", 
+        "meera": "びぎどぅん　ぷぃとぅ"
+    },
+    {     
+        "english": "simanegi", 
+        "meera": "すぃぶぃら"
+    },
+    {     
+        "english": "woman_gesture_me", 
+        "meera": "ばー"
+    },
+    {     
+        "english": "woman_gesture_you", 
+        "meera": "わー"
+    },   
+    {     
+        "english": "3sg", 
+        "meera": "うれー"
+    },   
+    {     
+        "english": "who", 
+        "meera":  "たる"
+    },   
+    {     
+        "english": "subject_marker", 
+        "meera":  "〜や"
+    },   
+    {     
+        "english": "connecting_particle", 
+        "meera":  "〜でぃ"
+    },   
+    {     
+        "english": "man_portrait_speech.gif", 
+        "meera":  "あんずぃ・あんじょーる"
+    },   
+    {     
+        "english": "intro", 
+        "meera":  "どーでぃん　みーし　たぼーんなーら"
+    }                      
+    ]
 }
