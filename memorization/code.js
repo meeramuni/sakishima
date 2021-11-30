@@ -76,7 +76,7 @@ $(document).ready(function () {
     
     // pick the first name of the shuffled array as the answer
     var theAnswer = decodeURI(Names[0]);
-    var theImage = "webapp/img/" + dictionary[theAnswer] + ".png";
+    var theImage = "webapp/img/" + dictionary[theAnswer];
     setImageURL("quizimage", theImage);
     
     // set the 4 buttons to the first 4 shuffled names

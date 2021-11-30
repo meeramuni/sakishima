@@ -1,42 +1,42 @@
 {"vocab": [
     { 
-        "english": "person", 
+        "english": "person.png", 
         "meera": "ぷぃとぅ"
     },
     { 
-        "english": "woman", 
+        "english": "woman.png", 
         "meera": "みーどぅん　ぷぃとぅ"
     },
     { 
-        "english": "man", 
+        "english": "man.png", 
         "meera": "びぎどぅん　ぷぃとぅ"
     },
     {     
-        "english": "simanegi", 
+        "english": "simanegi.png", 
         "meera": "すぃぶぃら"
     },
     {     
-        "english": "woman_gesture_me", 
+        "english": "woman_gesture_me.png", 
         "meera": "ばー"
     },
     {     
-        "english": "woman_gesture_you", 
+        "english": "woman_gesture_you.png", 
         "meera": "わー"
     },   
     {     
-        "english": "3sg", 
+        "english": "3sg.png", 
         "meera": "うれー"
     },   
     {     
-        "english": "who", 
+        "english": "3sg.png", 
         "meera":  "たる"
     },   
     {     
-        "english": "subject_marker", 
+        "english": "3sg.png", 
         "meera":  "〜や"
     },   
     {     
-        "english": "connecting_particle", 
+        "english": "3sg.png", 
         "meera":  "〜でぃ"
     },   
     {     
@@ -44,7 +44,7 @@
         "meera":  "あんずぃ・あんじょーる"
     },   
     {     
-        "english": "intro", 
+        "english": "3sg.png", 
         "meera":  "どーでぃん　みーし　たぼーんなーら"
     }                      
     ]

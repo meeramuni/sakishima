@@ -1,34 +1,34 @@
 {"vocab": [
     { 
-        "english": "dog", 
+        "english": "dog.png", 
         "meera": "いん"
     },
     { 
-        "english": "cat", 
+        "english": "cat.png", 
         "meera": "まやー"
     },
     { 
-        "english": "banana", 
+        "english": "banana.png", 
         "meera": "すぃま　ばそんなる"
     },
     {     
-        "english": "citrus", 
+        "english": "citrus.png", 
         "meera": "ふにん"
     },
     {     
-        "english": "man_eat", 
+        "english": "man_eat.png", 
         "meera": "ふぉー"
     },
     {     
-        "english": "woman_drink", 
+        "english": "woman_drink.png", 
         "meera": "ぬむ"
     },   
     {     
-        "english": "miso", 
+        "english": "miso.png", 
         "meera": "みしゅ　すぃる"
     },   
     {     
-        "english": "alcohol", 
+        "english": "alcohol.png", 
         "meera":  "ぐし"
     }          
     ]
