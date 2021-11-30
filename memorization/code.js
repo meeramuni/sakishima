@@ -16,7 +16,7 @@ $(document).ready(function () {
 
   onEvent("lesson1", "click", function(event) {
     // choose lesson
-    LessonNumber = '1';
+    LessonNumber = 1;
     setScreen("Quiz");
       showNextQuestion();
       getKeyValue("highscore", function (value) {
@@ -26,7 +26,7 @@ $(document).ready(function () {
 
   onEvent("lesson2", "click", function(event) {
     // choose lesson
-    LessonNumber = '2';
+    LessonNumber = 2;
     setScreen("Quiz");
       showNextQuestion();
       getKeyValue("highscore", function (value) {
