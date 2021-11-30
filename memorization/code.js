@@ -22,7 +22,6 @@ $(document).ready(function () {
       getKeyValue("highscore", function (value) {
         WorldRecord = value;
       });
-    getVocab();
   });
 
   onEvent("lesson2", "click", function(event) {
@@ -33,17 +32,14 @@ $(document).ready(function () {
       getKeyValue("highscore", function (value) {
         WorldRecord = value;
       });
-    getVocab();
   });
 
-  function getVocab() {
-    $.getJSON('memorization/ch'+ LessonNumber + "/ch" + LessonNumber +'_vocab.json', function(data) {
-      for(i=0;i<data.vocab.length;i++){ 
-        Names[i] = data.vocab[i].meera;
-        dictionary[Names[i]] = data.vocab[i].english;
-      }
-    });
-  }
+  $.getJSON('memorization/ch'+ LessonNumber + "/ch" + LessonNumber +'_vocab.json', function(data) {
+    for(i=0;i<data.vocab.length;i++){ 
+      Names[i] = data.vocab[i].meera;
+      dictionary[Names[i]] = data.vocab[i].english;
+    }
+  });
   
   function Shuffle(L) {
     for (var i = 0; i < L.length-1; i++) {
