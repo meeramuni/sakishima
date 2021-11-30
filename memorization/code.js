@@ -7,7 +7,7 @@ $(document).ready(function () {
   var Streak = 0;
   var BestStreak = 0;
   var WorldRecord = 0;
-  var LessonNumber = 1;
+  var LessonNumber;
   var Buttons = ["a1","a2","a3", "a4"];
 
   onEvent("begin", "click", function(event) {
