@@ -1,13 +1,13 @@
 <?xml version="1.0" ?>
 <div style="font-weight:bold">
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		むかす
 		<span class="tooltiptext">
 			<span class="gloss">昔</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		むら
 		<span class="tooltiptext">
 			<span class="gloss">村</span>
@@ -20,7 +20,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		まき
 		<span class="tooltiptext">
 			<span class="gloss">牧場</span>
@@ -33,7 +33,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うすぃ
 		<span class="tooltiptext">
 			<span class="gloss">牛</span>
@@ -57,7 +57,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		すぃに
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -72,7 +72,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うだ
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -99,7 +99,7 @@
 	。
 	<br/>
 	<br/>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		くり
 		<span class="tooltiptext">
 			<span class="gloss">これ</span>
@@ -112,7 +112,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		みーだ
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -127,7 +127,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うい
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -137,7 +137,7 @@
 			<span>注：老</span>
 		</span>
 	</div>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		がらさー
 		<span class="tooltiptext">
 			<span class="gloss">カラス</span>
@@ -150,7 +150,7 @@
 		</span>
 	</div>
 	（
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		くり
 		<span class="tooltiptext">
 			<span class="gloss">これ</span>
@@ -176,7 +176,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ふぁーんばー
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -202,7 +202,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うもーだ
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -249,7 +249,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ばがさーる
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -264,7 +264,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		がらさー
 		<span class="tooltiptext">
 			<span class="gloss">カラス</span>
@@ -284,7 +284,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		むら
 		<span class="tooltiptext">
 			<span class="gloss">村</span>
@@ -297,7 +297,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		まき
 		<span class="tooltiptext">
 			<span class="gloss">牧場</span>
@@ -310,7 +310,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うすぃ
 		<span class="tooltiptext">
 			<span class="gloss">牛</span>
@@ -323,7 +323,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		すぃに
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -338,7 +338,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うり
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -363,7 +363,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うり
 		<span class="tooltiptext">
 			<span class="gloss">それ</span>
@@ -376,7 +376,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ふぉい
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -460,7 +460,7 @@
 	。
 	<br/>
 	<br/>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ばがさーる
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -475,7 +475,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		がらす
 		<span class="tooltiptext">
 			<span class="gloss">カラス</span>
@@ -501,7 +501,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ふぉい
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -567,7 +567,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		とぅび
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -581,7 +581,7 @@
 			<span>形態素：〜い</span>
 		</span>
 	</div>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		たてーる
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -619,7 +619,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ばがさーる
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -634,7 +634,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		がらす
 		<span class="tooltiptext">
 			<span class="gloss">カラス</span>
@@ -653,7 +653,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		がんずーさー
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -685,13 +685,13 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		まい
 		<span class="tooltiptext">
 			<span class="gloss">前</span>
 		</span>
 	</div>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		なり
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -721,7 +721,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うい
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -731,7 +731,7 @@
 			<span>注：老</span>
 		</span>
 	</div>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		がらす
 		<span class="tooltiptext">
 			<span class="gloss">カラス</span>
@@ -764,7 +764,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		すぃてぃらり
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -831,7 +831,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ふぉーむのー
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -864,7 +864,7 @@
 			<span>形態素：〜い</span>
 		</span>
 	</div>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		なり
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -895,7 +895,7 @@
 			<span>語根：あんず</span>
 		</span>
 	</div>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ならぬ
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -912,7 +912,7 @@
 	。
 	<br/>
 	<br/>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		むぬかんがい
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -959,7 +959,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うい
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -969,7 +969,7 @@
 			<span>注：老</span>
 		</span>
 	</div>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		がらさー
 		<span class="tooltiptext">
 			<span class="gloss">カラス</span>
@@ -982,7 +982,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		かんがいだ
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1020,7 +1020,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		いく
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1041,7 +1041,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		つぬ
 		<span class="tooltiptext">
 			<span class="gloss">角</span>
@@ -1054,7 +1054,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ふぉーな
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1079,7 +1079,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		つのー
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1100,7 +1100,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ふぁぬどぅらー
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1149,7 +1149,7 @@
 	。
 	<br/>
 	<br/>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ばがさーる
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1164,7 +1164,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		がらす
 		<span class="tooltiptext">
 			<span class="gloss">カラス</span>
@@ -1190,7 +1190,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		つぬ
 		<span class="tooltiptext">
 			<span class="gloss">角</span>
@@ -1207,7 +1207,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		いつぃばん
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1218,7 +1218,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		んまさーる
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1250,7 +1250,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うむい
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1265,7 +1265,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		まき
 		<span class="tooltiptext">
 			<span class="gloss">牧場</span>
@@ -1293,7 +1293,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		つのー
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1314,7 +1314,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ふぉーん
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1339,7 +1339,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		すだ
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1360,7 +1360,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		つぬ
 		<span class="tooltiptext">
 			<span class="gloss">角</span>
@@ -1394,7 +1394,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ふぉい
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1419,7 +1419,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		しらるぬ
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1457,7 +1457,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うい
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1467,7 +1467,7 @@
 			<span>注：老</span>
 		</span>
 	</div>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		がらさー
 		<span class="tooltiptext">
 			<span class="gloss">カラス</span>
@@ -1486,14 +1486,14 @@
 			<span class="gloss">尻</span>
 		</span>
 	</div>
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		から
 		<span class="tooltiptext">
 			<span class="gloss">から</span>
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		きーて
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1508,7 +1508,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		いつぃばん
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1519,7 +1519,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		んまさーる
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1538,7 +1538,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		うすぃ
 		<span class="tooltiptext">
 			<span class="gloss">牛</span>
@@ -1551,7 +1551,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		みんたま
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1568,7 +1568,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ぬぎ
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1583,7 +1583,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		ふぉい
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1616,7 +1616,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		なき
 		<span class="tooltiptext">
 			<span class="gloss">
@@ -1631,7 +1631,7 @@
 		</span>
 	</div>
 	 
-	<div class="tooltip">
+	<div class="tooltip" style="color:darkorange">
 		とぅび
 		<span class="tooltiptext">
 			<span class="gloss">
