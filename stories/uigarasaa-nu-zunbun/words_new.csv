@@ -8,7 +8,7 @@ meera,word break,sentence break,japanese,root,parse,cognate,notes
 ぬ,1.0,N/A,〜の,N/A,N/A,1,N/A
 ぴとぅがら,1.0,N/A,一匹、一頭,N/A,ぴとぅ〜がら,0,N/A
 すぃに,1.0,N/A,死に,すぃぬ,〜い,1,N/A
-うだ,N/A,N/A,居た,うる,〜う,1,N/A
+うだ,N/A,N/A,居た,うる,〜う,1,おる
 ちょー,N/A,1.0,〜そうだ,N/A,N/A,0,N/A
 くり,N/A,N/A,これ,N/A,N/A,1,N/A
 ゆ,1.0,N/A,〜を,N/A,N/A,0,N/A
@@ -41,7 +41,7 @@ meera,word break,sentence break,japanese,root,parse,cognate,notes
 うすぃ,N/A,N/A,牛,N/A,N/A,1,N/A
 ぬ,1.0,N/A,〜の,N/A,N/A,1,N/A
 すぃに,1.0,N/A,死に,すぃぬ,〜い,1,N/A
-うり,N/A,N/A,居,うる,〜い,1,N/A
+うり,N/A,N/A,居,うる,〜い,1,おる
 きー,1.0,N/A,〜ので,N/A,N/A,0,N/A
 うり,N/A,N/A,それ,N/A,N/A,1,N/A
 ゆ,1.0,N/A,〜を,N/A,N/A,0,N/A
