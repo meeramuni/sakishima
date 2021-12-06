@@ -1,7 +1,3 @@
-$.ajaxSetup({
-  async: false
-});
-
 $(document).ready(function () { 
 
   var Names = {};
@@ -78,7 +74,7 @@ $(document).ready(function () {
 
   function vocabOfLesson() {
     var tempVocab = [];
-    for (let vocab of Names) {
+    for (let vocab in Names) {
       if (Names[vocab] == currentLesson) {
         tempVocab.push(vocab);
       }
