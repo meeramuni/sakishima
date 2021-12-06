@@ -78,7 +78,7 @@ $(document).ready(function () {
 
   function vocabOfLesson() {
     var tempVocab = [];
-    for (const vocab of Names) {
+    for (let vocab of Names) {
       if (Names[vocab] == currentLesson) {
         tempVocab.push(vocab);
       }
