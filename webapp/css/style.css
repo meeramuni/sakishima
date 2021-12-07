@@ -11,42 +11,6 @@ body {
    
 }
 
-/* Animations */
-
-
-.fade-in-text {
-  animation: fadeIn linear 3s;
-  -webkit-animation: fadeIn linear 3s;
-  -moz-animation: fadeIn linear 3s;
-  -o-animation: fadeIn linear 3s;
-  -ms-animation: fadeIn linear 3s;
-}
-
-@keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
 p {
   color: black;
 }
@@ -97,6 +61,7 @@ tr:nth-child(even) {
   text-align: center;
   padding: 14px 26px;
   text-decoration: none;
+  transition: .25s;
 }
 
 /* Change background on mouse-over */
@@ -158,12 +123,46 @@ tr:nth-child(even) {
   width: 500px;
 }
 
+/* Animations */
+.fade-in-text {
+  animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
 .website-pic.fade-in-image {
-  animation: fadeIn 3s;
-  -webkit-animation: fadeIn 3s;
-  -moz-animation: fadeIn 3s;
-  -o-animation: fadeIn 3s;
-  -ms-animation: fadeIn 3s;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
 }
 
 /* Arrow */
