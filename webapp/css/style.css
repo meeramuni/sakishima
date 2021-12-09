@@ -175,6 +175,7 @@ tr:nth-child(even) {
 /* Arrow */
 
 .scroll-down {
+  padding-top: 50px;
   position: absolute;
   left: 50%;
   bottom: 100px;
