@@ -4,7 +4,7 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-color: white;
-  font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",Arial, Helvetica,sans-serif;
 
   opacity: 0.5.;
   filter: alpha(opacity=0); /* For IE8 and earlier */
@@ -77,12 +77,12 @@ tr:nth-child(even) {
 
 /* Styled box */
 .box {
-  /*display: flex;*/
+  display: flex;
   flex:1;
   flex-flow: row wrap;
   padding-bottom: 50px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .box img {
@@ -177,7 +177,7 @@ tr:nth-child(even) {
 .scroll-down {
   position: absolute;
   left: 50%;
-  bottom: 100px;
+  bottom: 10px;
   display: block;
   text-align: center;
   font-size: 20px;
