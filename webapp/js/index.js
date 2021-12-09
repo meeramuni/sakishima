@@ -14,3 +14,9 @@ $(window).on("load",function() {
       });
     }).scroll(); //invoke scroll-handler on page-load
   });
+
+$('.scroll-down').click(function() {
+    $('html, body').animate({
+      scrollTop: $('section').next().offset().top
+    }, 1000);
+});
