@@ -177,7 +177,7 @@ tr:nth-child(even) {
 .scroll-down {
   position: absolute;
   left: 50%;
-  bottom: 10px;
+  bottom: 5%;
   display: block;
   text-align: center;
   font-size: 20px;
