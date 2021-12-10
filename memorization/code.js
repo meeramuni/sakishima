@@ -1,13 +1,14 @@
 $(document).ready(function () { 
 
-  var Names = new Array;
+  var Names = {};
   var dictionary = {};
   var Tries = 0;
   var Correct = 0;
   var Streak = 0;
   var BestStreak = 0;
   var WorldRecord = 0;
-  var LessonNumber = 2;
+  var LessonNumber = [1, 2]
+  var currentLesson;
   var Buttons = ["a1","a2","a3", "a4"];
 
   onEvent("begin", "click", function(event) {
@@ -16,7 +17,7 @@ $(document).ready(function () {
 
   onEvent("lesson1", "click", function(event) {
     // choose lesson
-    LessonNumber = 1;
+    currentLesson = 1;
     setScreen("Quiz");
       showNextQuestion();
       getKeyValue("highscore", function (value) {
@@ -26,7 +27,7 @@ $(document).ready(function () {
 
   onEvent("lesson2", "click", function(event) {
     // choose lesson
-    LessonNumber = 2;
+    currentLesson = 2;
     setScreen("Quiz");
       showNextQuestion();
       getKeyValue("highscore", function (value) {
@@ -34,12 +35,14 @@ $(document).ready(function () {
       });
   });
 
-  $.getJSON('memorization/ch'+ LessonNumber + "/ch" + LessonNumber +'_vocab.json', function(data) {
-    for(i=0;i<data.vocab.length;i++){ 
-      Names[i] = data.vocab[i].meera;
-      dictionary[Names[i]] = data.vocab[i].english;
-    }
-  });
+  for (const lesson of LessonNumber) {
+    $.getJSON('memorization/ch'+ lesson + "/ch" + lesson +'_vocab.json', function(data) {
+      for(i=0;i<data.vocab.length;i++){ 
+        Names[data.vocab[i].meera] = lesson;
+        dictionary[data.vocab[i].meera] = data.vocab[i].english;
+      }
+    });
+  }
   
   function Shuffle(L) {
     for (var i = 0; i < L.length-1; i++) {
@@ -69,21 +72,33 @@ $(document).ready(function () {
 
   }
 
+  function vocabOfLesson() {
+    var tempVocab = [];
+    for (let vocab in Names) {
+      if (Names[vocab] == currentLesson) {
+        tempVocab.push(vocab);
+      }
+    }
+    return tempVocab;
+  }
+
   function showNextQuestion() {
       // shuffle the Names, so the first name is different each time
     resetButtonColors();
-    Shuffle(Names);
+    var lessonVocab = vocabOfLesson();
+
+    Shuffle(lessonVocab);
     
     // pick the first name of the shuffled array as the answer
-    var theAnswer = decodeURI(Names[0]);
+    var theAnswer = decodeURI(lessonVocab[0]);
     var theImage = "webapp/img/" + dictionary[theAnswer];
     setImageURL("quizimage", theImage);
     
     // set the 4 buttons to the first 4 shuffled names
-    var answer1 = Names[0];
-    var answer2 = Names[1];
-    var answer3 = Names[2];
-    var answer4 = Names[3];
+    var answer1 = lessonVocab[0];
+    var answer2 = lessonVocab[1];
+    var answer3 = lessonVocab[2];
+    var answer4 = lessonVocab[3];
     
     setText("a1", answer1);
     setText("a2", answer2);
