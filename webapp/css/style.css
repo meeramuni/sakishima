@@ -6,7 +6,7 @@ body {
   background-color: white;
   font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",Arial, Helvetica,sans-serif;
 
-  opacity: 0.5.;
+  opacity: 0.5;
   filter: alpha(opacity=0); /* For IE8 and earlier */
    
 }
@@ -73,7 +73,7 @@ tr:nth-child(even) {
 @media screen and (max-width: 600px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a{
-    float: right;
+    float: left;
     display: block;
   }
   .navbar.responsive {position: relative;}
@@ -143,7 +143,7 @@ tr:nth-child(even) {
 }
 
 .website-pic img {
-  width: 500px;
+  width: 70%;
 }
 
 /* Animations */
