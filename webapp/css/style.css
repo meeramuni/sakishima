@@ -16,7 +16,12 @@ p {
 }
 h1 {
   font-weight: bold;
-  font-size: 54px;
+  font-size: 2em;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 /*Table*/
@@ -65,7 +70,11 @@ tr:nth-child(even) {
 }
 
 /* Change background on mouse-over */
+.navbar a:hover {
+  background-color: #616161;
+}
 
+/* navbar icon for mobile */
 .navbar .icon {
   display: none;
 }
@@ -75,6 +84,7 @@ Show the link that contains should open and close the nav (.icon) */
 @media screen and (max-width: 600px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
+    color: #f2f2f2;
     float: right;
     display: block;
   }
