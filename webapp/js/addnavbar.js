@@ -13,18 +13,9 @@ $(document).ready(function () {
          '<a href="conjugation">活用表</a>' +
          '<a href="media">メディア</a>' +
          '<a href="contact">連絡</a>'+
-         '<a href="javascript:void(0);" class="icon" onclick="myFunction()">≡</a>';
+         '<a href="javascript:void(0);" class="icon" onclick="responsiveNavbar()">≡</a>';
 
   $('#nav').append(navitems);
   
-},
-
-function myFunction() {
-  var x = document.getElementById("nav");
-  if (x.className == "navbar") {
-    x.className += " responsive";
-  } else {
-    x.className = "navbar";
-  }
 }
 );
