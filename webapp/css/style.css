@@ -9,6 +9,9 @@ body {
   opacity: 1;
   filter: alpha(opacity=0); /* For IE8 and earlier */
    
+}/* website image */
+.website-pic img {
+  width: 500px;
 }
 
 p {
@@ -156,10 +159,6 @@ Show the link that contains should open and close the nav (.icon) */
   border: 0;
 }
 
-.website-pic img {
-  width: 70%;
-}
-
 /* Animations */
 .typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -167,7 +166,7 @@ Show the link that contains should open and close the nav (.icon) */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation: 
-    typing 3.5s steps(40, end);
+    typing 1.5s steps(40, end);
 }
 
 /* The typing effect */
