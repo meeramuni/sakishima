@@ -12,8 +12,10 @@ $(document).ready(function () {
          '<a href="dictionary">辞書</a>' +
          '<a href="conjugation">活用表</a>' +
          '<a href="media">メディア</a>' +
-         '<a href="contact">連絡</a>';
+         '<a href="contact">連絡</a>'+
+         '<a href="javascript:void(0);" class="icon" onclick="responsiveNavbar()">≡</a>';
 
   $('#nav').append(navitems);
-
-});
+  
+}
+);

@@ -1,29 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head lang="ja">
 
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <base href="https://meeramuni.github.io/sakishima/index.html">
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/lessonstyle.css">
     <link rel="stylesheet" href="css/soundcorr.css">
 
-    <script src="js/jquery.js"></script>
-    <script src="soundcorrespondences/quiz.js"></script>
-
     <title>音の相当</title>
     
-    <!--navigation bar-->
-    <div class="navbar">
-      <a href="index.html">ホームページ</a>
-      <a href="about.html">めーらについて</a>
-      <a href="stories.html">物語</a>
-      <a href="lessons.html">授業</a>
-      <a href="games.html">ゲーム</a>
-      <a href="soundcorrespondences.html">音の規則</a>
-      <a href="contact.html">連絡</a>
-    </div>
+    <!-- Create the navigation bar -->
+    <div id="nav" class="navbar"></div>
   </head>
 
   <!--Correspondences-->
@@ -184,5 +174,11 @@
 
   <div id="gameArea" tabindex="1"></div>
 
+  <!-- Javascript -->
+  <script src="js/jquery.js"></script>
+  <script type = "text/javascript" src="webapp/js/responsivenavbar.js"></script>  
+  <script src="webapp/js/addnavbar.js"></script>
+  <script src="soundcorrespondences/quiz.js"></script>
+  
   </body>
 </html>
