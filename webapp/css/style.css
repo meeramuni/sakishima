@@ -145,7 +145,7 @@ Show the link that contains should open and close the nav (.icon) */
 }
 
 /* Make the image to responsive */
-.game-image {
+.game-image img {
   display: block;
   width: 100%;
   height: auto;
@@ -154,32 +154,12 @@ Show the link that contains should open and close the nav (.icon) */
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
   position: absolute;
-  opacity: 0;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1;
   width: 100%;
-  transition: .5s ease;
-  color: white;
-  font-size: 20px;
   padding: 20px;
-  text-align: center;
-}
-
-.overlay {
-  opacity: 0;       
-  transition: opacity .25s linear; /* vendorless fallback */
-  -o-transition: opacity .25s linear; /* opera */
-  -ms-transition: opacity .25s linear; /* IE 10 */
-  -moz-transition: opacity .25s linear; /* Firefox */
-  -webkit-transition: opacity .25s linear; /*safari and chrome */
-}
-.overlay:hover {
-  opacity: .1;
 }
 
 /* iframe container */
