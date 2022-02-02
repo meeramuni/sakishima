@@ -240,6 +240,7 @@ Show the link that contains should open and close the nav (.icon) */
   -moz-animation: fadeIn 2s;
   -o-animation: fadeIn 2s;
   -ms-animation: fadeIn 2s;
+  padding-top: 1em;
 }
 
 /* Arrow */
