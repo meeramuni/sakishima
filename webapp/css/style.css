@@ -147,7 +147,7 @@ Show the link that contains should open and close the nav (.icon) */
 /* Make the image to responsive */
 .game-image img {
   display: block;
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 
