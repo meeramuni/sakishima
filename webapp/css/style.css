@@ -48,6 +48,8 @@ h3 {
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
+  display: block;
+  overflow-x: auto;
   width: 90%;
 }
 
