@@ -21,6 +21,7 @@ h1 {
   font-weight: bold;
   font-size: 2rem;
   margin: auto;
+  max-width: 668mm;
 }
 
 h2 {
@@ -28,6 +29,9 @@ h2 {
   margin: auto;
   font-size: 1.5rem;
   line-height: 1.5;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  max-width: 668mm;
 }
 
 h3 {
@@ -37,6 +41,7 @@ h3 {
   line-height: 1.5;
   margin-top: 1em;
   margin-bottom: 1em;
+  max-width: 668mm;
 }
 
 /*Table*/
