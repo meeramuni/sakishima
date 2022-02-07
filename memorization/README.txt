@@ -22,5 +22,7 @@ The files in this folder contain everything you need to run your app:
 * `code.js` - This file has all the code you wrote for your app. Go here to add
   new behavior to your app.
 
-* `assets` - This is a directory with all the asset files (pictures and sounds)
-  that you uploaded in applab.
+* `chX/chX_vocab.json` - This file contains the vocabulary within lesson X. This
+  is standard across every lesson. Within the file, "english" is the image file 
+  name and "meera" is the vocabulary word in Meeramuni.
+ 
