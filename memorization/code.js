@@ -35,6 +35,26 @@ $(document).ready(function () {
       });
   });
 
+  onEvent("lesson3", "click", function(event) {
+    // choose lesson
+    currentLesson = 2;
+    setScreen("Quiz");
+      showNextQuestion();
+      getKeyValue("highscore", function (value) {
+        WorldRecord = value;
+      });
+  });
+
+  onEvent("lesson4", "click", function(event) {
+    // choose lesson
+    currentLesson = 2;
+    setScreen("Quiz");
+      showNextQuestion();
+      getKeyValue("highscore", function (value) {
+        WorldRecord = value;
+      });
+  });
+
   for (const lesson of LessonNumber) {
     $.getJSON('memorization/ch'+ lesson + "/ch" + lesson +'_vocab.json', function(data) {
       for(i=0;i<data.vocab.length;i++){ 
