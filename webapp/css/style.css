@@ -197,7 +197,13 @@ Show the link that contains should open and close the nav (.icon) */
   }
 }
 
-.display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.display-bottommiddle{
+  position:relative;
+  left:50%;
+  bottom:0;
+  transform:translate(-50%,0%);
+  -ms-transform:translate(-50%,0%)
+}
 
 .game-container {
   /*display: flex;*/
