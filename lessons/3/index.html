@@ -1,0 +1,210 @@
+<!doctype html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>第一課：うれー　のーかや？</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../webapp/css/lessonstyle.css">
+    <link rel="stylesheet" href="../../webapp/libraries/reveal.js-master/dist/reset.css">
+    <link rel="stylesheet" href="../../webapp/libraries/reveal.js-master/dist/reveal.css">
+    <link rel="stylesheet" href="../../webapp/libraries/reveal.js-master/dist/theme/black.css">
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="../../webapp/libraries/reveal.js-master/plugin/highlight/monokai.css"> 
+
+</head>
+
+
+<body>
+
+
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- Title -->
+
+            <section>
+                
+                <!-- autoplays an audio file -->
+                <audio data-autoplay src="audio/lessons/3/zymangadu-uru.wav"></audio>
+
+                <h1>第三課</h1>
+                
+                <span style="cursor:pointer" onclick="javascript:soundfile('lessons/3/zymangadu-uru.wav')"><h2>ずぃまんがどぅ　うる？</h2></span>  
+            
+            </section>
+
+            <!-- Contents-->
+
+            <section id="contents">
+                <a class="local" href="#/vocab1">単語１</a>
+                <br>
+                <a class="local" href="#/grammar1">文法１</a>
+                <br>
+                <a class="local" href="#/practice1">練習１</a>
+                <br>
+                <a class="local" href="#/vocab2">単語２</a>
+                <br>
+                <a class="local" href="#/grammar2">文法２</a>
+                <br>
+                <a class="local" href="#/practice2">練習２</a>
+                <br> 
+                <a class="local" href="#/vocabreview">単語復習</a>
+                <br>
+                <a href="review.html">復習</a>                   
+            </section>
+
+            <!-- Vocabulary-->
+
+            <section id="vocab1">
+
+                言葉を覚えましょう！
+
+                <div class="container">
+                    <div class="col">
+                    <span class="fragment" data-fragment-index="1" style="cursor:pointer" onclick="javascript:soundfile('lessons/2/jaa.wav')">
+                        <audio data-autoplay src="../../webapp/audio/lessons/3/jaa.wav"></audio>
+                        <figure>
+                            <img width="40%" src="../../webapp/img/house.png">
+                            <figcaption>やー</figcaption>
+                        </figure>
+                    </span>
+
+                    <span class="fragment" data-fragment-index="2" style="cursor:pointer" onclick="javascript:soundfile('lessons/3/tumoory.wav')">
+                        <audio data-autoplay src="../../webapp/audio/lessons/3/tumoory.wav"></audio>
+                        <figure>
+                            <img width="40%" src="../../webapp/img/beach.png">
+                            <figcaption>とぅもーろ</figcaption>
+                        </figure>
+                    </span>
+                    </div>
+
+                    <div class="col">
+                        <span class="fragment" data-fragment-index="3" style="cursor:pointer" onclick="javascript:soundfile('lessons/2/izy.wav')">
+                        <audio data-autoplay src="../../webapp/audio/lessons/3/izy.wav"></audio>
+                        <figure>
+                            <img width="40%" src="../../webapp/img/fish.png">
+                            <figcaption>いず</figcaption>
+                        </figure>
+                        </span>
+
+                        <span class="fragment" data-fragment-index="4" style="cursor:pointer" onclick="javascript:soundfile('lessons/2/nma.wav')">
+                        <audio data-autoplay src="../../webapp/audio/lessons/3/nma.wav"></audio>
+                        <figure>
+                            <img width="40%" src="../../webapp/img/horse.png">
+                            <figcaption>んま</figcaption>
+                        </figure>
+                        </span>
+                    </div>
+
+                </div>
+                
+            </section>
+
+            <!-- Grammar -->
+
+            <section id="reviewlink">
+
+                <a href="review.html">復習しましょう！</a>
+
+            </section>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Copy same header/footer onto every slide -->
+    <style type="text/css">
+        /* 1. Style header/footer <div> so they are positioned as desired. */
+        #header-left {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+        }
+        #header-right {
+            position: absolute;
+            top: 0%;
+            right: 0%;
+        }
+        #footer-left {
+            position: absolute;
+            bottom: 3%;
+            left: 2%;
+            z-index: 100;
+        }
+        #footer-right {
+            position: absolute;
+            bottom: 3%;
+            right: 2%;
+            z-index: 100;
+        }
+    </style>
+
+    <!-- 2. Create hidden header/footer <div> -->
+    <div id="hidden" style="display:none;">
+        <div id="header">
+            <div id="footer-left">
+                <a class="local" href="#/contents">目次</a>
+            </div>
+
+            <div id="footer-right">
+                <a href="..">授業</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <!-- Javascript -->
+    <script type="text/javascript">
+        // 3. On Reveal.js ready event, copy header/footer <div> into each `.slide-background` <div>
+        var header = $('#header').html();
+        if ( window.location.search.match( /print-pdf/gi ) ) {
+            Reveal.addEventListener( 'ready', function( event ) {
+                $('.slide-background').append(header);
+            });
+        }
+        else {
+            $('div.reveal').append(header);
+       }
+    </script>
+
+    <!-- Scripts for reveal -->
+    <script src="../../webapp/libraries/reveal.js-master/dist/reveal.js"></script>
+    <script src="../../webapp/libraries/reveal.js-master/plugin/notes/notes.js"></script>
+    <script src="../../webapp/libraries/reveal.js-master/plugin/markdown/markdown.js"></script>
+    <script src="../../webapp/libraries/reveal.js-master/plugin/highlight/highlight.js"></script>
+
+    <script>
+        // More info about initialization & config:
+        // - https://revealjs.com/initialization/
+        // - https://revealjs.com/config/
+        Reveal.initialize({
+            hash: true,
+
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+
+            // Where to place controls (bottom-right or edges)
+            controlsLayout: 'edges',
+        });
+    </script>
+
+    <!-- Plays audio -->        
+    <script src="../../webapp/js/audio.js"></script> 
+    <!-- Anchor from local link rather than base -->
+    <script src="../../webapp/js/localanchor.js"></script>
+
+</body>
+
+</html>
