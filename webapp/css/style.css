@@ -189,6 +189,20 @@ Show the link that contains should open and close the nav (.icon) */
   -ms-transform:translate(0%,-50%);
 }
 
+.animate-left{
+  position:relative;
+  animation:animateleft 0.4s
+}
+@keyframes animateleft{
+  from{
+    left:-300px;
+    opacity:0
+  } to{
+    left:0;
+    opacity:1
+  }
+}
+
 .game-container {
   /*display: flex;*/
   flex:1;
