@@ -145,7 +145,48 @@ Show the link that contains should open and close the nav (.icon) */
 }
 
 .box img {
-  width: 90%;
+  width: 100%;
+}
+
+/* Slideshow */
+.mySlides {display:none;}
+
+.button-left {
+  border:none;
+  display:inline-block;
+  padding:8px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:#fff!important;
+  background-color:#000!important;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap;
+  position:absolute;
+  top:50%;
+  left:0%;
+  transform:translate(0%,-50%);
+  -ms-transform:translate(-0%,-50%);
+}
+
+.button-right {
+  border:none;
+  display:inline-block;
+  padding:8px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:#fff!important;
+  background-color:#000!important;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap;
+  position:absolute;
+  top:50%;
+  right:0%;
+  transform:translate(0%,-50%);
+  -ms-transform:translate(0%,-50%);
 }
 
 .game-container {
