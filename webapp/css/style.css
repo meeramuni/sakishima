@@ -19,18 +19,37 @@ p {
 }
 h1 {
   font-weight: bold;
-  font-size: 2em;
+  font-size: 2rem;
+  margin: auto;
+  max-width: 668mm;
 }
 
 h2 {
   font-weight: bold;
-  font-size: 1.5em;
+  margin: auto;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  max-width: 668mm;
+}
+
+h3 {
+  font-weight: normal;
+  margin: auto;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  max-width: 668mm;
 }
 
 /*Table*/
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
+  display: block;
+  overflow-x: auto;
   width: 90%;
 }
 
@@ -126,18 +145,92 @@ Show the link that contains should open and close the nav (.icon) */
 }
 
 .box img {
-  width: 90%;
+  width: 60%;
+  display: block;
+  margin: auto;
 }
 
-.box-games {
+/* Slideshow */
+.mySlides {display:none;}
+
+.button-left {
+  border:none;
+  display:inline-block;
+  padding:8px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:#fff!important;
+  background-color:#000!important;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap;
+  position:relative;
+}
+
+.button-right {
+  border:none;
+  display:inline-block;
+  padding:8px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:#fff!important;
+  background-color:#000!important;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap;
+  position:relative;
+}
+
+.animate-left{
+  position:relative;
+  animation:animateleft 0.4s
+}
+@keyframes animateleft{
+  from{
+    left:-300px;
+    opacity:0
+  } to{
+    left:0;
+    opacity:1
+  }
+}
+
+.display-bottommiddle{
+  position:relative;
+  left:50%;
+  bottom:0;
+  transform:translate(-50%,0%);
+  -ms-transform:translate(-50%,0%)
+}
+
+.game-container {
   /*display: flex;*/
   flex:1;
+  width: 25%;
   flex-flow: row wrap;
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
   padding-left: 150px;
   padding-right: 150px;
+}
+
+/* Make the image to responsive */
+.game-image img {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
 }
 
 /* iframe container */
@@ -206,6 +299,7 @@ Show the link that contains should open and close the nav (.icon) */
   -moz-animation: fadeIn 2s;
   -o-animation: fadeIn 2s;
   -ms-animation: fadeIn 2s;
+  padding-top: 1em;
 }
 
 /* Arrow */
