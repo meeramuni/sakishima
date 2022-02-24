@@ -1,7 +1,7 @@
 /*background image, font color and size*/
 body {
   background-image: url("Background_art.png");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: white;
   font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",Arial, Helvetica,sans-serif;
