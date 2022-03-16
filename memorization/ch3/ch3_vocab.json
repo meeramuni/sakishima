@@ -1,0 +1,27 @@
+{"vocab": [
+    { 
+        "english": "house.png", 
+        "meera": "やー"
+    },
+    { 
+        "english": "underwater.png", 
+        "meera": "とぅもーろ"
+    },
+    { 
+        "english": "fish.png", 
+        "meera": "いず"
+    },
+    {     
+        "english": "horse.png", 
+        "meera": "んま"
+    },
+    {     
+        "english": "river.png", 
+        "meera": "かーら"
+    },
+    {     
+        "english": "field.png", 
+        "meera": "はたぎ"
+    }                   
+    ]
+}
