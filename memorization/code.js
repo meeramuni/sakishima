@@ -7,7 +7,7 @@ $(document).ready(function () {
   var Streak = 0;
   var BestStreak = 0;
   var WorldRecord = 0;
-  var LessonNumber = [1, 2, 3]
+  var LessonNumber = [1, 2, 3, 4]
   var currentLesson;
   var Buttons = ["a1","a2","a3", "a4"];
 
@@ -47,7 +47,7 @@ $(document).ready(function () {
 
   onEvent("lesson4", "click", function(event) {
     // choose lesson
-    currentLesson = 2;
+    currentLesson = 4;
     setScreen("Quiz");
       showNextQuestion();
       getKeyValue("highscore", function (value) {

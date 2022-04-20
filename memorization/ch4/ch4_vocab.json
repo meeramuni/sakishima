@@ -1,0 +1,27 @@
+{"vocab": [
+    { 
+        "english": "goat_soup.png", 
+        "meera": "やぎじる"
+    },
+    { 
+        "english": "muuchii.png", 
+        "meera": "むーち"
+    },
+    { 
+        "english": "sashimi_set.png", 
+        "meera": "さしみ定食"
+    },
+    {     
+        "english": "sweet_potato.png", 
+        "meera": "んむ"
+    },
+    {     
+        "english": "soba_shop.png", 
+        "meera": "すばや"
+    },
+    {     
+        "english": "yaeyamasoba.png", 
+        "meera": "やいますば"
+    }                   
+    ]
+}
