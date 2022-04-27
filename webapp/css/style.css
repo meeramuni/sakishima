@@ -2,6 +2,7 @@
 body {
   background-image: url("Background_art.jpg");
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-color: white;
@@ -16,6 +17,17 @@ body {
   height: 400px;
   object-fit: cover;
   object-position: 100% 0;
+}
+
+.caption {
+  position: absolute;
+  font-size: 3rem;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+  text-align: center;
+  color: white;
+  font-weight: bold;
 }
 
 p {
@@ -263,7 +275,7 @@ Show the link that contains should open and close the nav (.icon) */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation: 
-    typing 3.5s steps(40, end);
+    typing 2s steps(40, end);
 }
 
 /* The typing effect */
