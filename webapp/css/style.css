@@ -30,6 +30,11 @@ body {
   font-weight: bold;
 }
 
+.mascot {
+  width: 19%;
+  display: inline-block;
+}
+
 p {
   color: black;
 }
@@ -162,7 +167,7 @@ Show the link that contains should open and close the nav (.icon) */
 
 .box img {
   width: 60%;
-  display: block;
+  display: inline-block;
   margin: auto;
 }
 
