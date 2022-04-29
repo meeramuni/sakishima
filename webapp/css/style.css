@@ -34,6 +34,11 @@ body {
   display: inline-block;
 }
 
+.mascotc {
+  width: 16%;
+  display: inline-block;
+}
+
 .frontpg-container {
   position: relative;
   text-align: center;
@@ -160,7 +165,10 @@ Show the link that contains should open and close the nav (.icon) */
   }
   .mascot {
     display: block;
-    width: 50%;
+    width: 100%;
+  }
+  .mascotc {
+    width: 0%;
   }
 
   .box img{
