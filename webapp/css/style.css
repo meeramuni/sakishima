@@ -158,6 +158,16 @@ Show the link that contains should open and close the nav (.icon) */
   .website-pic img {
     height: 200px;
   }
+  .mascot {
+    display: block;
+    width: 50%;
+  }
+
+  .box img{
+    display: block;
+    width: 100%;
+
+  }
 }
 
 /* Main content */
